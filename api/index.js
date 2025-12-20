@@ -14,7 +14,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use('/api/v1', apiRoute);
+// 在 Vercel serverless function 中，路由 /api/v1/(.*) 已經處理了前綴
+// 傳入的路徑不包含 /api/v1，直接使用 apiRoute
+// 本地開發時，如果路徑包含 /api/v1，則移除前綴
+app.use((req, res, next) => {
+	if (req.path.startsWith('/api/v1')) {
+		req.url = req.url.replace('/api/v1', '') || '/';
+	}
+	next();
+});
+
+app.use(apiRoute);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Catch 404 and forward to error handler
