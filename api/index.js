@@ -14,27 +14,32 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// 處理路徑：移除 /api/v1 前綴（如果存在）
-// 在 Vercel 中，路由 /api/v1/(.*) 匹配後，路徑可能還包含前綴或已經移除
-// 為了兼容兩種情況，統一處理
+// 處理路徑：在 Vercel 中，路由 /api/v1/(.*) 匹配後，傳入的路徑是匹配的部分（例如：/maps）
+// 本地開發時，路徑是完整的 /api/v1/maps，需要移除前綴
 app.use((req, res, next) => {
 	const originalPath = req.path;
 	const originalUrl = req.url;
 
 	// Debug logging
-	console.log('Request - Original path:', originalPath, 'URL:', originalUrl);
+	console.log('[API] Request received - Path:', originalPath, 'URL:', originalUrl, 'Method:', req.method);
 
-	// 如果路徑以 /api/v1 開頭，移除前綴
+	// 如果路徑以 /api/v1 開頭，移除前綴（本地開發情況）
 	if (originalPath.startsWith('/api/v1')) {
-		req.path = originalPath.replace(/^\/api\/v1/, '') || '/';
-		req.url = originalUrl.replace(/^\/api\/v1/, '') || '/';
-		console.log('Removed /api/v1 - New path:', req.path, 'URL:', req.url);
+		const newPath = originalPath.replace(/^\/api\/v1/, '') || '/';
+		const newUrl = originalUrl.replace(/^\/api\/v1/, '') || '/';
+		req.path = newPath;
+		req.url = newUrl;
+		console.log('[API] Removed /api/v1 prefix - New path:', req.path, 'URL:', req.url);
 	}
 
 	next();
 });
 
+// 使用 apiRoute（包含 /maps 和 /items 路由）
 app.use(apiRoute);
+
+// Debug: 記錄所有註冊的路由
+console.log('[API] Routes registered:', app._router?.stack?.map(layer => layer.route?.path || layer.regexp).filter(Boolean));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Catch 404 and forward to error handler
