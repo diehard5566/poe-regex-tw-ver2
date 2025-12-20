@@ -3,7 +3,7 @@
 	"buildCommand": "cd client && npm install && npm run build",
 	"outputDirectory": "client/build",
 	"functions": {
-		"server/index.js": {
+		"api/index.js": {
 			"includeFiles": "server/**",
 			"memory": 1024,
 			"maxDuration": 10
@@ -12,7 +12,7 @@
 	"rewrites": [
 		{
 			"source": "/api/v1/(.*)",
-			"destination": "/server/index.js"
+			"destination": "/api/index.js"
 		},
 		{
 			"source": "/(.*)",
