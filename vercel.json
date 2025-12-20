@@ -3,14 +3,7 @@
 	"builds": [
 		{
 			"src": "api/index.js",
-			"use": "@vercel/node@3.0.7"
-		},
-		{
-			"src": "client/package.json",
-			"use": "@vercel/static-build@3.0.0",
-			"config": {
-				"distDir": "build"
-			}
+			"use": "@vercel/node"
 		}
 	],
 	"routes": [
@@ -25,10 +18,5 @@
 			"src": "/(.*)",
 			"dest": "client/build/index.html"
 		}
-	],
-	"functions": {
-		"api/**/*.js": {
-			"runtime": "nodejs22.x"
-		}
-	}
+	]
 }
