@@ -1,0 +1,33 @@
+.modifier-selector {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.modifier-selector input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.modifier-selector ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.modifier-selector li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.modifier-selector li:hover,
+.modifier-selector li.selected {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--color-text);
+}
+.modifier-selector li.t17-modifier {
+    color: hsl(271, 100%, 78%);
+}

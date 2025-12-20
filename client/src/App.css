@@ -1,0 +1,51 @@
+/* margin-top: 調整標題上方的間距
+margin-bottom: 調整標題下方的間距
+padding-top: 調整標題內部上方的間距
+padding-bottom: 調整標題內部下方的間距
+line-height: 調整行高，影響標題的垂直間距
+text-align: 調整文本對齊方式（左對齊、居中、右對齊）
+font-size: 調整字體大小
+font-weight: 調整字體粗細 */
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+  background-color: var(--color-site-bg);
+}
+
+.sidebar {
+  width: 13%;
+  background-color: var(--color-bg);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.main {
+  width: 80%;
+  padding: 10px;
+  background-color: var(--color-site-bg);
+  min-height: 100vh;
+  height: auto;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}

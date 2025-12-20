@@ -1,0 +1,49 @@
+/* margin-top: 調整標題上方的間距
+margin-bottom: 調整標題下方的間距
+padding-top: 調整標題內部上方的間距
+padding-bottom: 調整標題內部下方的間距
+line-height: 調整行高，影響標題的垂直間距
+text-align: 調整文本對齊方式（左對齊、居中、右對齊）
+font-size: 調整字體大小
+font-weight: 調整字體粗細 */
+
+.items-container {
+    padding: 20px !important;
+    color: white !important;
+    font-family: Arial, sans-serif !important;
+    background-color: #1a1a1a !important; /* 深色背景 */
+}
+
+.items-container * {
+    color: white !important; /* 確保容器內所有元素的文字為白色 */
+}
+
+.items-title {
+    margin-bottom: 20px !important;
+    color: #ffffff !important; /* 白色標題 */
+    font-size: 24px !important;
+}
+
+.items-api-response {
+    color: #ffffff !important; /* 白色文字用於 API 響應 */
+    background-color: #2a2a2a !important; /* 稍微淺一點的背景，用於 API 響應 */
+    padding: 10px !important;
+    border-radius: 4px !important;
+    max-height: 400px !important;
+    overflow-y: auto !important;
+}
+
+.items-error-message {
+    color: #ff6b6b !important; /* 錯誤信息使用明亮的紅色 */
+    font-weight: bold !important;
+}
+
+.items-loading-message {
+    color: #aaa !important; /* 加載信息使用淺灰色 */
+}
+
+/* 為了增加可讀性的額外樣式 */
+.items-container p {
+    line-height: 1.6 !important;
+    margin-bottom: 10px !important;
+}

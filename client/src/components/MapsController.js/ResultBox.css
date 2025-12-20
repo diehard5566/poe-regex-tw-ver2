@@ -1,0 +1,126 @@
+.result-box {
+    font-family: monospace;
+    font-size: 24px;
+    background-color: var(--color-area);
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    border: 1px solid #3a3f4b; /* 添加邊框以區分 */
+    border-radius: 4px; /* 添加圓角 */
+    margin-bottom: 20px; /* 增加底部間距 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
+}
+
+.result {
+    flex-grow: 1;
+    padding: 15px 15px 5px;
+    min-height: 62px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.result-regex {
+    background-color: var(--color-regex-bg);
+    word-break: break-all;
+}
+
+.result-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copy-button, .reset-button {
+    width: 90px;
+    font-family: monospace;
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.copy-button {
+    background-color: var(--color-correct);
+}
+
+.copy-button:disabled {
+    background-color: var(--color-disabled);
+}
+
+.reset-button {
+    background-color: var(--color-deep-error);
+}
+
+.auto-copy {
+    margin-top: 8px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-autocopy {
+    margin-right: 5px;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.auto-copy-text {
+    font-size: 14px;
+}
+
+.size-info {
+    color: #b1b1b7;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.error {
+    color: var(--color-text-error);
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.warning {
+    color: var(--color-text-warn);
+    padding-top: 6px;
+    font-size: 16px;
+}
+
+.copied-good {
+    color: var(--color-text-copied);
+}
+
+@media (max-width: 800px) {
+    .result-box {
+        flex-direction: column;
+    }
+
+    .result {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .result-action {
+        align-items: stretch;
+    }
+
+    .button-group {
+        justify-content: space-between;
+    }
+
+    .copy-button, .reset-button {
+        width: 48%;
+    }
+}
