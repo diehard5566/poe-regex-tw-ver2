@@ -63,10 +63,14 @@ app.use((err, req, res, _next) => {
 	});
 });
 
-const port = process.env.PORT || 9000;
+// Vercel 會自動處理 serverless function，不需要 app.listen()
+// 本地開發時如果需要，可以在本地環境變數中設置 PORT
+if (process.env.NODE_ENV !== 'production' || process.env.VERCEL !== '1') {
+	const port = process.env.PORT || 9000;
 
-app.listen(port, () => {
-	console.log(`Server running on port ${port}`);
-});
+	app.listen(port, () => {
+		console.log(`Server running on port ${port}`);
+	});
+}
 
 module.exports = app;

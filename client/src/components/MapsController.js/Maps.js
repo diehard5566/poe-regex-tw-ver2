@@ -24,18 +24,23 @@ const Maps = () => {
 	const [allGoodMods, setAllGoodMods] = useState(false);
 
 	const getApiUrl = useCallback((endpoint) => {
-		let baseUrl = process.env.REACT_APP_API_URL || '';
+		const baseUrl = process.env.REACT_APP_API_URL || '';
 
 		console.log('原始 API URL 基礎路徑:', baseUrl);
+
+		// 如果 baseUrl 為空，使用相對路徑（適用於 Vercel 生產環境）
+		if (!baseUrl) {
+			return `/api/v1/${endpoint}`;
+		}
 
 		// 檢查 baseUrl 是否已經包含 /api/v1
 		if (baseUrl.includes('/api/v1')) {
 			// 如果已經包含，則直接添加端點
 			return `${baseUrl}/${endpoint}`;
-		} else {
-			// 如果不包含，則添加 /api/v1 和端點
-			return `${baseUrl}/api/v1/${endpoint}`;
 		}
+
+		// 如果不包含，則添加 /api/v1 和端點
+		return `${baseUrl}/api/v1/${endpoint}`;
 	}, []);
 
 	const fetchModifiers = useCallback(async () => {
