@@ -2,18 +2,18 @@
 
 # dependencies
 node_modules/
-api/node_modules/
+server/node_modules/
 client/node_modules/
 
 # testing
 coverage/
-api/coverage/
+server/coverage/
 client/coverage/
 
 # production
 build/
 client/build/
-api/build/
+server/build/
 
 # misc
 .DS_Store
@@ -29,10 +29,10 @@ yarn-error.log*
 
 # Cursor IDE
 .cursor/
-api/.cursor/
+server/.cursor/
 client/.cursor/
 
 # Vercel
 .vercel/
-api/.vercel/
+server/.vercel/
 client/.vercel/

@@ -6,7 +6,7 @@ Path of Exile 正則表達式工具 - 整合版 Monorepo
 
 ```
 poe-regex-tw/
-├── api/          # 後端 API (Node.js/Express)
+├── server/       # 後端 API (Node.js/Express)
 ├── client/       # 前端應用 (React)
 └── README.md     # 本檔案
 ```
@@ -15,9 +15,9 @@ poe-regex-tw/
 
 ### 後端 API
 
-1. 進入 `api` 目錄：
+1. 進入 `server` 目錄：
    ```bash
-   cd api
+   cd server
    ```
 
 2. 安裝依賴：
