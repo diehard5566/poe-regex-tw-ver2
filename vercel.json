@@ -22,8 +22,8 @@
 			"handle": "filesystem"
 		},
 		{
-			"src": "/:path*",
-			"dest": "client/build/:path*"
+			"src": "/(.*)",
+			"dest": "client/build/index.html"
 		}
 	],
 	"functions": {
