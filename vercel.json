@@ -15,16 +15,12 @@
 	],
 	"routes": [
 		{
-			"src": "/api/v1/(.*)",
+			"src": "/api/v1/:path*",
 			"dest": "api/index.js"
 		},
 		{
-			"src": "/(.*\\.(js|css|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot))",
-			"dest": "client/build/$1"
-		},
-		{
-			"src": "/(.*)",
-			"dest": "client/build/index.html"
+			"src": "/:path*",
+			"dest": "client/build/:path*"
 		}
 	],
 	"functions": {
