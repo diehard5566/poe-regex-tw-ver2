@@ -1,0 +1,109 @@
+.page-container {
+	padding: 20px;
+}
+
+.page-content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.page-nav {
+	margin-bottom: 20px;
+}
+
+.back-link {
+	color: var(--color-text-link);
+	text-decoration: none;
+}
+
+.back-link:hover {
+	text-decoration: underline;
+}
+
+.page-title {
+	margin-top: 20px;
+	margin-bottom: 24px;
+	padding-left: 8px;
+	font-size: 28px;
+	font-weight: 400;
+	color: var(--color-text);
+}
+
+.page-body {
+	color: var(--color-text-secondary);
+	line-height: 1.6;
+}
+
+.page-body p {
+	margin-bottom: 30px;
+}
+
+.support-options {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 40px;
+}
+
+.support-link {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 15px 20px;
+	background-color: var(--color-area);
+	border-radius: 8px;
+	text-decoration: none;
+	color: var(--color-text);
+	transition: background-color 0.3s ease;
+}
+
+.support-link:hover {
+	background-color: var(--color-soft-area);
+}
+
+.support-logo {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.support-text {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.ecpay-section {
+	margin-top: 40px;
+	padding: 30px;
+	background-color: var(--color-area);
+	border-radius: 8px;
+	text-align: center;
+}
+
+.ecpay-title {
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--color-text);
+	margin-bottom: 20px;
+}
+
+.ecpay-content {
+	margin-top: 20px;
+}
+
+.ecpay-button {
+	display: inline-block;
+	padding: 12px 30px;
+	background-color: var(--color-text-link);
+	color: var(--color-text);
+	text-decoration: none;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: background-color 0.3s ease;
+}
+
+.ecpay-button:hover {
+	background-color: var(--color-soft-area);
+}
+

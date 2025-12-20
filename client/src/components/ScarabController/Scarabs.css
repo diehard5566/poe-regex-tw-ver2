@@ -1,0 +1,147 @@
+.scarabs-container {
+	background-color: var(--color-bg);
+	padding: 20px;
+	color: var(--color-text);
+}
+
+.scarabs-title {
+	margin-bottom: 20px;
+	color: var(--color-text);
+}
+
+.scarabs-controls {
+	margin: 20px 0;
+}
+
+.auto-select-section {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 15px;
+	flex-wrap: wrap;
+}
+
+.auto-select-button {
+	padding: 8px 16px;
+	background-color: var(--color-primary);
+	color: var(--color-text);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.auto-select-button:hover {
+	opacity: 0.8;
+}
+
+.price-input {
+	width: 80px;
+	padding: 6px 10px;
+	border: 1px solid var(--color-border);
+	border-radius: 4px;
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font-size: 14px;
+}
+
+.price-separator {
+	margin: 0 5px;
+	color: var(--color-text-secondary);
+}
+
+.reset-price-button {
+	padding: 6px 12px;
+	background-color: var(--color-secondary);
+	color: var(--color-text);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.reset-price-button:hover {
+	opacity: 0.8;
+}
+
+.search-section {
+	margin-bottom: 15px;
+}
+
+.search-input {
+	width: 100%;
+	max-width: 400px;
+	padding: 8px 12px;
+	border: 1px solid var(--color-border);
+	border-radius: 4px;
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font-size: 14px;
+}
+
+.search-input:focus {
+	outline: none;
+	border-color: var(--color-primary);
+}
+
+.scarabs-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 15px;
+	margin-top: 20px;
+}
+
+.scarab-item {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 12px;
+	border: 2px solid var(--color-border);
+	border-radius: 8px;
+	cursor: pointer;
+	background-color: var(--color-bg);
+	transition: all 0.2s;
+}
+
+.scarab-item:hover {
+	border-color: var(--color-primary);
+	background-color: var(--color-bg-hover);
+}
+
+.scarab-item.selected {
+	border-color: var(--color-primary);
+	background-color: var(--color-primary-light);
+}
+
+.scarab-image {
+	width: 48px;
+	height: 48px;
+	object-fit: contain;
+	flex-shrink: 0;
+}
+
+.scarab-info {
+	flex: 1;
+	min-width: 0;
+}
+
+.scarab-name {
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--color-text);
+	margin-bottom: 4px;
+	word-break: break-word;
+}
+
+.scarab-price {
+	font-size: 12px;
+	color: var(--color-text-secondary);
+}
+
+.loading {
+	text-align: center;
+	padding: 40px;
+	color: var(--color-text-secondary);
+	font-size: 16px;
+}
+
