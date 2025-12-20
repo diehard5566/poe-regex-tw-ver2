@@ -14,13 +14,23 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// 在 Vercel serverless function 中，路由 /api/v1/(.*) 已經處理了前綴
-// 傳入的路徑不包含 /api/v1，直接使用 apiRoute
-// 本地開發時，如果路徑包含 /api/v1，則移除前綴
+// 處理路徑：移除 /api/v1 前綴（如果存在）
+// 在 Vercel 中，路由 /api/v1/(.*) 匹配後，路徑可能還包含前綴或已經移除
+// 為了兼容兩種情況，統一處理
 app.use((req, res, next) => {
-	if (req.path.startsWith('/api/v1')) {
-		req.url = req.url.replace('/api/v1', '') || '/';
+	const originalPath = req.path;
+	const originalUrl = req.url;
+
+	// Debug logging
+	console.log('Request - Original path:', originalPath, 'URL:', originalUrl);
+
+	// 如果路徑以 /api/v1 開頭，移除前綴
+	if (originalPath.startsWith('/api/v1')) {
+		req.path = originalPath.replace(/^\/api\/v1/, '') || '/';
+		req.url = originalUrl.replace(/^\/api\/v1/, '') || '/';
+		console.log('Removed /api/v1 - New path:', req.path, 'URL:', req.url);
 	}
+
 	next();
 });
 
