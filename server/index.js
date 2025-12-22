@@ -14,32 +14,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// 處理路徑：在 Vercel 中，路由 /api/v1/(.*) 匹配後，傳入的路徑是匹配的部分（例如：/maps）
-// 本地開發時，路徑是完整的 /api/v1/maps，需要移除前綴
-app.use((req, res, next) => {
-	const originalPath = req.path;
-	const originalUrl = req.url;
-
-	// Debug logging
-	console.log('[API] Request received - Path:', originalPath, 'URL:', originalUrl, 'Method:', req.method);
-
-	// 如果路徑以 /api/v1 開頭，移除前綴（本地開發情況）
-	if (originalPath.startsWith('/api/v1')) {
-		const newPath = originalPath.replace(/^\/api\/v1/, '') || '/';
-		const newUrl = originalUrl.replace(/^\/api\/v1/, '') || '/';
-		req.path = newPath;
-		req.url = newUrl;
-		console.log('[API] Removed /api/v1 prefix - New path:', req.path, 'URL:', req.url);
-	}
-
-	next();
-});
-
-// 使用 apiRoute（包含 /maps 和 /items 路由）
+// Nginx 會處理 /api/v1 前綴，直接轉發到後端，所以後端接收的路徑已經不包含 /api/v1
+// 使用 apiRoute（包含 /maps、/items、/scarabs 路由）
 app.use(apiRoute);
 
-// Debug: 記錄所有註冊的路由
-console.log('[API] Routes registered:', app._router?.stack?.map(layer => layer.route?.path || layer.regexp).filter(Boolean));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Catch 404 and forward to error handler
@@ -63,15 +41,11 @@ app.use((err, req, res, _next) => {
 	});
 });
 
-// Vercel 會自動處理 serverless function，不需要 app.listen()
-// 本地開發時如果需要，可以在本地環境變數中設置 PORT
-if (process.env.NODE_ENV !== 'production' || process.env.VERCEL !== '1') {
-	const port = process.env.PORT || 9000;
+const port = process.env.PORT || 9000;
 
-	app.listen(port, () => {
-		console.log(`Server running on port ${port}`);
-	});
-}
+app.listen(port, () => {
+	console.log(`Server running on port ${port}`);
+});
 
 module.exports = app;
 
