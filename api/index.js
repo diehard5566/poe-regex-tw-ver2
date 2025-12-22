@@ -53,6 +53,9 @@ app.use((err, req, res, _next) => {
 	res.locals.message = err.message;
 	res.locals.error = req.app.get('env') === 'development' ? err : {};
 
+	// Log error for debugging
+	console.error('[API] Error:', err);
+
 	// Render the error page
 	res.status(err.status || 500);
 	res.json({
@@ -73,4 +76,5 @@ if (process.env.NODE_ENV !== 'production' || process.env.VERCEL !== '1') {
 	});
 }
 
+// Vercel serverless function export
 module.exports = app;
