@@ -69,7 +69,7 @@ const Maps = () => {
 		try {
 			const apiUrl = getApiUrl('maps/t17?type=2');
 
-			console.log('獲取 T17 地圖詞綴的 API URL:', apiUrl);
+			console.log('獲取 T16.5/夢魘地圖詞綴的 API URL:', apiUrl);
 
 			const response = await fetch(apiUrl);
 
@@ -82,7 +82,7 @@ const Maps = () => {
 			return Object.keys(data).map(mod => ({ mod, isT17: true })) || [];
 		} catch (error) {
 			console.error('Failed to fetch T17 modifiers:', error);
-			setError('無法載入 T17 詞綴數據，請檢查網路連接或重新整理頁面');
+			setError('無法載入 T16.5/夢魘詞綴數據，請檢查網路連接或重新整理頁面');
 			return [];
 		}
 	}, [getApiUrl]);
@@ -428,7 +428,7 @@ const Maps = () => {
 							onClick={() => handleT17CheckboxChange(!isT17Selected)}
 							className={`t17-button ${isT17Selected ? 'active' : ''}`}
 						>
-							t17詞綴
+							t16.5/夢魘詞綴
 						</button>
 					<div className="all-good-mods-toggle">
                         <button

@@ -16,6 +16,7 @@ app.use(cookieParser());
 
 // Nginx 會處理 /api/v1 前綴，直接轉發到後端，所以後端接收的路徑已經不包含 /api/v1
 // 使用 apiRoute（包含 /maps、/items、/scarabs 路由）
+// app.use('/api/v1', apiRoute); //for local development
 app.use(apiRoute);
 
 app.use(express.static(path.join(__dirname, 'public')));

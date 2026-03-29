@@ -20,11 +20,11 @@ const App = () => (
 					{/* <li><Link to="/items">物品詞綴</Link></li> */}
 					<li><a href="https://www.poepricer.com/" target="_blank" rel="noopener noreferrer">通貨物價</a></li>
 				</ul>
-				<AdBanner containerId="ad-container-160x300" adKey="8aa48f28f44655793a58aa6ec898cc28" width={160} height={300} />
-				<AdBanner containerId="ad-container-300x250" adKey="e0006c1ec20d7b2bf6f267f58d569650" width={300} height={250} />
 				<ul style={{ marginTop: '20px' }}>
 					<li><Link to="/support">贊助支持</Link></li>
 				</ul>
+				<AdBanner containerId="ad-container-160x300" adKey="8aa48f28f44655793a58aa6ec898cc28" width={160} height={300} />
+				<AdBanner containerId="ad-container-300x250" adKey="e0006c1ec20d7b2bf6f267f58d569650" width={300} height={250} />
 			</div>
 			<div className="main">
 				<Routes>
