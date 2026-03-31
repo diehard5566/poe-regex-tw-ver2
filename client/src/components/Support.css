@@ -72,38 +72,53 @@
 	font-weight: 500;
 }
 
-.ecpay-section {
-	margin-top: 40px;
-	padding: 30px;
+.opay-section {
+	margin-bottom: 40px;
+	padding: 22px;
 	background-color: var(--color-area);
-	border-radius: 8px;
+	border-radius: 10px;
 	text-align: center;
 }
 
-.ecpay-title {
-	font-size: 24px;
-	font-weight: 400;
-	color: var(--color-text);
-	margin-bottom: 20px;
-}
-
-.ecpay-content {
-	margin-top: 20px;
-}
-
-.ecpay-button {
-	display: inline-block;
-	padding: 12px 30px;
-	background-color: var(--color-text-link);
-	color: var(--color-text);
+.opay-banner-link {
+	display: block;
 	text-decoration: none;
-	border-radius: 6px;
-	font-size: 16px;
-	font-weight: 500;
-	transition: background-color 0.3s ease;
 }
 
-.ecpay-button:hover {
-	background-color: var(--color-soft-area);
+.opay-banner {
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+	transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.opay-banner-link:hover .opay-banner {
+	transform: translateY(-2px);
+	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.24);
+}
+
+.opay-twqr-link {
+	display: inline-block;
+	margin-top: 18px;
+	text-decoration: none;
+	color: var(--color-text-secondary);
+}
+
+.opay-twqr {
+	width: 240px;
+	height: auto;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+}
+
+.opay-methods {
+	margin-top: 10px;
+	color: var(--color-text-secondary);
+	font-size: 14px;
+	line-height: 1.5;
 }
 
