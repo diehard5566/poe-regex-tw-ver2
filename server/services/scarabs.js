@@ -19,8 +19,16 @@ function generateScarabRegex(selectedNames) {
 		return '';
 	}
 
-	// 去重複
+	// 去重複；較長代碼放前，讓 | 交替時先嘗試較具體的 pattern（減少子字串互相包含造成的誤匹配）
 	const uniqueCodes = [...new Set(shortCodes)];
+
+	uniqueCodes.sort((a, b) => {
+		if (b.length !== a.length) {
+			return b.length - a.length;
+		}
+
+		return a.localeCompare(b, 'zh-Hant');
+	});
 
 	// 組合為 regex，格式： "code1|code2|code3"
 	return `"${uniqueCodes.join('|')}"`;

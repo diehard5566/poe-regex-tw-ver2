@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Support.css';
+import kofibanner from '../assets/kofi.webp';
+import paypalbanner from '../assets/paypal.png';
 
 const Support = () => {
 	const donateURL = 'https://payment.opay.tw/Broadcaster/Donate/A88A8507787D65A4F01A269BB4EE75C0';
@@ -55,17 +57,17 @@ const Support = () => {
 
 					<div className="support-options">
 						<a
-							href="https://www.patreon.com/c/poe_pricer_tw"
+							href="https://ko-fi.com/shihyao001"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="support-link patreon-link"
+							className="support-link kofi-link"
 						>
 							<img
-								src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Patreon_logo_with_wordmark.svg/512px-Patreon_logo_with_wordmark.svg.png"
-								alt="Patreon"
+								src={kofibanner}
+								alt="Ko-fi"
 								className="support-logo"
 							/>
-							<span className="support-text">成為 Patreon 會員</span>
+							<span className="support-text">透過 Ko-fi 贊助！</span>
 						</a>
 
 						<a
@@ -75,7 +77,7 @@ const Support = () => {
 							className="support-link paypal-link"
 						>
 							<img
-								src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/512px-PayPal.svg.png"
+								src={paypalbanner}
 								alt="PayPal"
 								className="support-logo"
 							/>
