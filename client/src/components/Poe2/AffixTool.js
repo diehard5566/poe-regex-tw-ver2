@@ -3,7 +3,7 @@ import relics from '../../data/poe2/relics.json';
 import { buildStatQuery, rarityQuery, safelyGenerate } from '../../utils/poe2/search';
 import ResultBox from '../MapsController.js/ResultBox';
 import StatPicker from './StatPicker';
-import { MatchMode, DataNote, RaritySelect } from './ToolControls';
+import { MatchMode, RaritySelect } from './ToolControls';
 import './Poe2.css';
 
 export default function AffixTool() {
@@ -34,7 +34,6 @@ export default function AffixTool() {
 				<StatPicker title="後綴" mods={data.mods.filter(mod => mod.affix === 'SUFFIX')} selection={selection} onChange={setSelection} numeric={false} />
 				{data.mods.some(mod => mod.affix === 'BOTH') && <StatPicker title="共用屬性（可能出現在不同詞綴組合）" mods={data.mods.filter(mod => mod.affix === 'BOTH')} selection={selection} onChange={setSelection} numeric={false} />}
 			</div>
-			<DataNote numeric={false}><p>目前提供 {data.mods.length} 個獨立屬性；來源不一致但已由官方實際物品確認的詞綴已收錄；未確認者不會自動轉換正負號。</p></DataNote>
 		</section>
 	);
 }

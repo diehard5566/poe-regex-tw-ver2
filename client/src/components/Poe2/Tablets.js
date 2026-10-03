@@ -17,7 +17,7 @@ export default function Tablets() {
 	return (
 		<section className="poe2-page">
 			<h1>POE 2 碑牌詞綴</h1>
-			<p className="poe2-description">沿用 poe.re 碑牌邏輯與繁中詞綴，複合詞綴保留為同一組。</p>
+			<p className="poe2-description">選擇需要的碑牌詞綴，再將搜尋字串複製到遊戲。複合詞綴以同一組呈現。</p>
 			<ResultBox result={result} error={error} reset={() => { setSettings(initialTabletSettings); setSearch(''); }} />
 			{[['rarities', '碑牌稀有度', tabletRarities], ['types', '碑牌類型', tabletTypes]].map(([key, title, options]) => (
 				<fieldset className="poe2-type-list" key={key}><legend>{title}（全選或全不選表示不限）</legend>
@@ -50,22 +50,6 @@ export default function Tablets() {
 				})}</ul>
 				{!filtered.length && <p role="status">沒有符合的詞綴。</p>}
 			</section>
-			<details className="poe2-data-note">
-				<summary>價格與自訂搜尋條件</summary>
-				<label><input type="checkbox" checked={settings.priceEnabled} onChange={event => update({ priceEnabled: event.target.checked })} />限制標價</label>
-				<div className="poe2-toolbar">
-					{[['priceMin', '最低標價'], ['priceMax', '最高標價']].map(([key, label]) => <label key={key}>{label} <input type="number" min="0" max="999" value={settings[key]} disabled={!settings.priceEnabled} onChange={event => update({ [key]: event.target.value })} /></label>)}
-					<label>通貨 <select value={settings.currency} onChange={event => update({ currency: event.target.value })}><option value="exalted">崇高石</option><option value="divine">神聖石</option></select></label>
-				</div>
-				<label>自訂搜尋條件 <input type="text" value={settings.customText} onChange={event => update({ customText: event.target.value })} /></label>
-			</details>
-			<details className="poe2-data-note">
-				<summary>上游來源與比對限制</summary>
-				<p>使用 poe.re 5d07d01 的 {tabletAffixes.length} 組繁中碑牌詞綴與原始 regex，未拆分複合詞綴。稀有度、種類與剩餘次數的文字改為繁中。</p>
-				<p>目前上游繁中資料未提供詞綴數值範圍，因此不開放詞綴數值門檻。上游有範圍時，以進階文字中括號前的實際數值比對；不另設最大值。</p>
-				<p>價格條件沿用上游，僅比對標價文字，不查詢即時行情。繁中遊戲內效果仍需實測。</p>
-				<a href="https://github.com/veiset/poe.re/tree/5d07d01eb53f26267f733df404566488e71150f3/poe2/src/pages/tablet" target="_blank" rel="noopener noreferrer">上游碑牌實作</a>
-			</details>
 		</section>
 	);
 }

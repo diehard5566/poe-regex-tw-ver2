@@ -3,7 +3,7 @@ import data from '../../data/poe2/items.json';
 import { buildStatQuery, escapeRegex, propertiesQuery, emptyProperties, safelyGenerate } from '../../utils/poe2/search';
 import ResultBox from '../MapsController.js/ResultBox';
 import StatPicker from './StatPicker';
-import { DataNote, MatchMode, NumericMode } from './ToolControls';
+import { MatchMode, NumericMode } from './ToolControls';
 import './Poe2.css';
 import Properties from './Properties';
 
@@ -55,7 +55,6 @@ export default function Items() {
 					))}
 				</div>
 			</> : <p>先選物品分類，再選基底與需要的詞綴。</p>}
-			<DataNote><p>基底名稱另與官方物品 API 核對。分類是候選清單，不保證每個基底都可生成分類下所有詞綴；未移植英文名稱式空詞綴偵測。</p></DataNote>
 		</section>
 	);
 }

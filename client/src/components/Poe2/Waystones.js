@@ -33,7 +33,7 @@ export default function Waystones() {
 			</div>
 			<details className="poe2-data-note" open>
 				<summary>地圖收益最低值</summary>
-				<p>與 poe2.re 相同，收益只設定最低值；留空或 0 表示不限。階級及復活次數才有上下限。</p>
+				<p>收益只設定最低值；留空或 0 表示不限。階級及復活次數才有上下限。</p>
 				<div className="poe2-summary-fields">{waystoneFields.map(field => <label className="poe2-selector" key={field.key}>
 					{field.label}至少（%）
 					<input type="number" min="0" max={field.limit} placeholder="不限" aria-label={`${field.label}至少`}
@@ -72,16 +72,6 @@ export default function Waystones() {
 					);
 				})}
 			</div>
-			<details className="poe2-data-note">
-				<summary>資料來源與目前支援範圍</summary>
-				<p>已逐項對照 poe.re 5d07d01 的 32 組繁中換界石詞綴，保留複合詞綴與已核對的遊戲顯示文字。詞綴僅勾選，不套用自行延伸的數值區間。</p>
-				<p>冷卻恢復的交易模板為「更多」，但官方實際物品顯示「更少」，已依物品顯示校正。復活與收益欄位名稱已核對官方公開物品 properties；普通稀有度依遊戲截圖使用「稀有度: 中」；其餘條件仍需遊戲內驗收。</p>
-				<a href="https://poe2.re/waystone" target="_blank" rel="noopener noreferrer">poe2.re 換界石</a>
-				{' · '}<a href="https://github.com/veiset/poe.re/tree/5d07d01eb53f26267f733df404566488e71150f3/poe2/src/pages/waystone" target="_blank" rel="noopener noreferrer">上游程式</a>
-				{' · '}<a href="https://forum.gamer.com.tw/C.php?bsn=18966&amp;snA=134772" target="_blank" rel="noopener noreferrer">巴哈搜尋語法教學（POE1）</a>
-				{' · '}<a href="https://pathofexile.tw/api/trade2/data/stats" target="_blank" rel="noopener noreferrer">GGG 官方詞綴資料</a>
-				{' · '}<a href="https://poe2db.tw/tw/Modifiers" target="_blank" rel="noopener noreferrer">POE2DB 詞綴分類</a>
-			</details>
 		</section>
 	);
 }
