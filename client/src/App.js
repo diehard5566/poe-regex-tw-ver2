@@ -10,6 +10,7 @@ import Support from './components/Support';
 import Waystones from './components/Poe2/Waystones';
 import './style/global.css';
 
+const Tablets = lazy(() => import('./components/Poe2/Tablets'));
 const AffixTool = lazy(() => import('./components/Poe2/AffixTool'));
 const Poe2Items = lazy(() => import('./components/Poe2/Items'));
 const Vendor = lazy(() => import('./components/Poe2/Vendor'));
@@ -44,7 +45,7 @@ const App = () => (
 				<Suspense fallback={<p role="status">載入工具中…</p>}>
 				<Routes>
 					<Route path="/poe2/waystones" element={<Waystones/>}/>
-					<Route path="/poe2/tablets" element={<AffixTool key="tablets"/>}/>
+					<Route path="/poe2/tablets" element={<Tablets/>}/>
 					<Route path="/poe2/relics" element={<AffixTool key="relics"/>}/>
 					<Route path="/poe2/vendor" element={<Vendor/>}/>
 					<Route path="/poe2/items" element={<Poe2Items/>}/>

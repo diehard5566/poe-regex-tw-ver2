@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import ResultBox from '../MapsController.js/ResultBox';
 import { generateWaystoneRegex, toggleWaystoneMod, waystoneMods } from '../../utils/poe2/regex';
 import './Poe2.css';
-import { RaritySelect, NumericMode } from './ToolControls';
 import { safelyGenerate, waystoneFields } from '../../utils/poe2/search';
 
-const initialSettings = { wanted: [], unwanted: [], matchAll: false, values: {}, tierMin: '', tierMax: '', corrupted: '', rarity: '', summary: {}, delirious: false, advanced: false };
+const initialSettings = { wanted: [], unwanted: [], matchAll: false, tierMin: '1', tierMax: '16', reviveMin: '0', reviveMax: '6', corrupted: '', rarities: [], summary: {}, delirious: false, round10: false };
 
 export default function Waystones() {
 	const [settings, setSettings] = useState(initialSettings);
@@ -20,26 +19,27 @@ export default function Waystones() {
 				setSettings(initialSettings);
 				setSearch({ wanted: '', unwanted: '' });
 			}} />
-			<NumericMode value={settings.advanced} onChange={advanced => setSettings({ ...settings, advanced })} />
 			<div className="poe2-toolbar">
-				<RaritySelect value={settings.rarity} onChange={rarity => setSettings({ ...settings, rarity })} />
+				<fieldset className="poe2-type-list"><legend>稀有度（全選或全不選表示不限）</legend>
+					{['普通', '魔法', '稀有'].map(rarity => <label key={rarity}><input type="checkbox" checked={settings.rarities.includes(rarity)}
+						onChange={() => setSettings({ ...settings, rarities: settings.rarities.includes(rarity) ? settings.rarities.filter(value => value !== rarity) : [...settings.rarities, rarity] })} />{rarity}</label>)}
+				</fieldset>
 				<label>汙染 <select value={settings.corrupted} onChange={event => setSettings({ ...settings, corrupted: event.target.value })}>
 					<option value="">不限</option><option value="yes">已汙染</option><option value="no">未汙染</option>
 				</select></label>
-				{[['tierMin', '最低階級'], ['tierMax', '最高階級']].map(([key, label]) => <label key={key}>{label}
-					<input type="number" min="1" max="16" value={settings[key]} placeholder="不限" onChange={event => setSettings({ ...settings, [key]: event.target.value })} />
+				{[['tierMin', '最低階級', 1, 16], ['tierMax', '最高階級', 1, 16], ['reviveMin', '最少復活次數', 0, 6], ['reviveMax', '最多復活次數', 0, 6]].map(([key, label, min, max]) => <label key={key}>{label}
+					<input type="number" min={min} max={max} value={settings[key]} placeholder="不限" onChange={event => setSettings({ ...settings, [key]: event.target.value })} />
 				</label>)}
 			</div>
 			<details className="poe2-data-note" open>
-				<summary>復活次數與地圖收益條件</summary>
-				<p>收益只填最小值會產生短版搜尋式；填入最大值時，會保留完整數字邊界以避免誤判。</p>
-				<div className="poe2-summary-fields">{waystoneFields.map(field => <div className="poe2-selector" key={field.key}>
-					<h2>{field.label}{field.suffix}</h2>
-					<div className="poe2-value-row">{['min', 'max'].map(bound => <label key={bound}>{bound === 'min' ? '最小' : '最大'}
-						<input type="number" min="0" max={field.limit} placeholder="不限" aria-label={`${field.label}${bound === 'min' ? '最小' : '最大'}`}
-							value={settings.summary[field.key]?.[bound] || ''} onChange={event => setSettings({ ...settings, summary: { ...settings.summary, [field.key]: { ...settings.summary[field.key], [bound]: event.target.value } } })} />
-					</label>)}</div>
-				</div>)}</div>
+				<summary>地圖收益最低值</summary>
+				<p>與 poe2.re 相同，收益只設定最低值；留空或 0 表示不限。階級及復活次數才有上下限。</p>
+				<div className="poe2-summary-fields">{waystoneFields.map(field => <label className="poe2-selector" key={field.key}>
+					{field.label}至少（%）
+					<input type="number" min="0" max={field.limit} placeholder="不限" aria-label={`${field.label}至少`}
+						value={settings.summary[field.key] ?? ''} onChange={event => setSettings({ ...settings, summary: { ...settings.summary, [field.key]: event.target.value } })} />
+				</label>)}</div>
+				<label><input type="checkbox" checked={settings.round10} onChange={event => setSettings({ ...settings, round10: event.target.checked })} />收益最低值向下取整至 10 的倍數（例如 29 → 20）</label>
 				<label><input type="checkbox" checked={settings.delirious} onChange={event => setSettings({ ...settings, delirious: event.target.checked })} />含有玩家譫妄詞綴</label>
 			</details>
 			<div className="poe2-mode" role="group" aria-label="需要的詞綴匹配方式">
@@ -47,7 +47,7 @@ export default function Waystones() {
 				<button type="button" aria-pressed={!settings.matchAll} onClick={() => setSettings({ ...settings, matchAll: false })}>任一詞即可</button>
 				<button type="button" aria-pressed={settings.matchAll} onClick={() => setSettings({ ...settings, matchAll: true })}>詞全對才亮</button>
 			</div>
-			<p className="poe2-description">同一詞綴改選另一側時，會自動移除原選擇。# 代表數值；留空不限制。門檻支援 -9999～9999 整數，排除側表示排除落在此範圍的詞綴。</p>
+			<p className="poe2-description">同一詞綴改選另一側時，會自動移除原選擇。# 代表詞綴中的任意數值，不設定逐詞綴區間。不要的詞以 | 合併排除；需要的詞可選任一或全部符合。</p>
 			<div className="poe2-modifiers">
 				{['unwanted', 'wanted'].map(side => {
 					const title = side === 'unwanted' ? '不要的詞（不會高亮）' : '需要的詞';
@@ -65,13 +65,6 @@ export default function Waystones() {
 										<input type="checkbox" checked={settings[side].includes(mod.id)} onChange={() => setSettings(current => toggleWaystoneMod(current, side, mod.id))} />
 										<span>{mod.text}</span>
 									</label>
-									{settings[side].includes(mod.id) && mod.text.includes('#') && <div className="poe2-value-fields">
-										<span>第一行 # 的範圍</span>
-										{['min', 'max'].map(bound => <label key={bound}>{bound === 'min' ? '最小' : '最大'}
-											<input type="number" min="-9999" max="9999" placeholder="不限" aria-label={`${mod.text} ${bound === 'min' ? '最小' : '最大'}`}
-												value={settings.values[mod.id]?.[0]?.[bound] || ''} onChange={event => setSettings({ ...settings, values: { ...settings.values, [mod.id]: [{ min: '', max: '', ...settings.values[mod.id]?.[0], [bound]: event.target.value }] } })} />
-										</label>)}
-									</div>}
 								</li>
 							))}</ul>
 							{mods.length === 0 && <p role="status">沒有符合的詞綴。</p>}
@@ -81,9 +74,12 @@ export default function Waystones() {
 			</div>
 			<details className="poe2-data-note">
 				<summary>資料來源與目前支援範圍</summary>
-				<p>32 組詞綴已核對官方繁中交易詞綴文字（2026-10-03），尚待遊戲內驗收；不是全部版本詞綴的完整清單。</p>
-				<p>冷卻恢復的交易模板為「更多」，但官方實際物品顯示「更少」，已依物品顯示校正。復活與收益欄位名稱已核對官方公開物品 properties；汙染及稀有度沿用 POE1 欄位格式，仍需遊戲內驗收。</p>
-				<a href="https://pathofexile.tw/api/trade2/data/stats" target="_blank" rel="noopener noreferrer">GGG 官方詞綴資料</a>
+				<p>已逐項對照 poe.re 5d07d01 的 32 組繁中換界石詞綴，保留複合詞綴與已核對的遊戲顯示文字。詞綴僅勾選，不套用自行延伸的數值區間。</p>
+				<p>冷卻恢復的交易模板為「更多」，但官方實際物品顯示「更少」，已依物品顯示校正。復活與收益欄位名稱已核對官方公開物品 properties；普通稀有度依遊戲截圖使用「稀有度: 中」；其餘條件仍需遊戲內驗收。</p>
+				<a href="https://poe2.re/waystone" target="_blank" rel="noopener noreferrer">poe2.re 換界石</a>
+				{' · '}<a href="https://github.com/veiset/poe.re/tree/5d07d01eb53f26267f733df404566488e71150f3/poe2/src/pages/waystone" target="_blank" rel="noopener noreferrer">上游程式</a>
+				{' · '}<a href="https://forum.gamer.com.tw/C.php?bsn=18966&amp;snA=134772" target="_blank" rel="noopener noreferrer">巴哈搜尋語法教學（POE1）</a>
+				{' · '}<a href="https://pathofexile.tw/api/trade2/data/stats" target="_blank" rel="noopener noreferrer">GGG 官方詞綴資料</a>
 				{' · '}<a href="https://poe2db.tw/tw/Modifiers" target="_blank" rel="noopener noreferrer">POE2DB 詞綴分類</a>
 			</details>
 		</section>

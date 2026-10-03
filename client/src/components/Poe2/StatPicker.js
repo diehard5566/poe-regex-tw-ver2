@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { toggleStat } from '../../utils/poe2/search';
 
-export default function StatPicker({ title, mods, selection, onChange }) {
+export default function StatPicker({ title, mods, selection, onChange, numeric = true }) {
 	const [search, setSearch] = useState('');
 	const filtered = mods.filter(mod => selection[mod.id] || mod.text.includes(search.trim()))
 		.sort((a, b) => Number(Boolean(selection[b.id])) - Number(Boolean(selection[a.id])));
@@ -19,7 +19,7 @@ export default function StatPicker({ title, mods, selection, onChange }) {
 						<input type="checkbox" checked={Boolean(selection[mod.id])} onChange={() => onChange(toggleStat(selection, mod))} />
 						<span>{mod.text}</span>
 					</label>
-					{selection[mod.id]?.length > 0 && (
+					{numeric && selection[mod.id]?.length > 0 && (
 						<div className="poe2-value-fields">{selection[mod.id].map((value, index) => (
 							<div className="poe2-value-row" key={`${mod.id}-${index}`}>
 								<span>第 {index + 1} 個 #</span>

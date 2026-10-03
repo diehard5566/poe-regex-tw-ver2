@@ -33,21 +33,14 @@ function fixedRange(low, high) {
 	return join(parts);
 }
 
-// Same strategy as upstream GenerateNumberRegex: current width plus longer numbers.
-// A positioned stat needs full digit runs; a property minimum can search a suffix.
-function minimumRange(min, substring = false) {
+// Match complete digit runs, never a suffix of a smaller value.
+function minimumRange(min) {
 	if (min === 0) return '\\d+';
-	if (min === 1 && !substring) return '[1-9]\\d*';
+	if (min === 1) return '[1-9]\\d*';
 
 	const low = String(min);
-	const current = fixedRange(low, '9'.repeat(low.length));
 
-	if (!substring) return join([current, `\\d{${low.length + 1},}`]);
-
-	const short = current.replace(/\\d(?:\{(\d+)\})?/g, (_, count) => '.'.repeat(Number(count || 1)));
-	const longer = low.length === 1 ? '\\d..?' : `\\d${'.'.repeat(low.length)}`;
-
-	return join([short, longer]);
+	return join([fixedRange(low, '9'.repeat(low.length)), `[1-9]\\d{${low.length},}`]);
 }
 
 function unsignedRange(min, max) {
@@ -174,13 +167,7 @@ export function safelyGenerate(generate) {
 export function rarityQuery(value) {
 	if (!value) return '';
 	if (!['普通', '魔法', '稀有', '傳奇'].includes(value)) throw new Error('未知的稀有度。');
-	return `"稀有度[:：] *${value}"`;
-}
-
-export function tabletUsesQuery(min) {
-	if (min === '') return '';
-	if (!/^\d+$/.test(min) || Number(min) < 1 || Number(min) > 99) throw new Error('碑牌剩餘次數請輸入 1～99 的整數。');
-	return `"剩餘 *${unsignedRange(Number(min), 99)} *次使用"`;
+	return `"稀有度[:：] *${value === '普通' ? '中' : value}"`;
 }
 
 export function tierQuery(min, max) {
@@ -190,6 +177,7 @@ export function tierQuery(min, max) {
 	const high = max === '' ? 16 : Number(max);
 
 	if (![min, max].every(value => value === '' || /^\d+$/.test(String(value))) || low < 1 || high > 16 || low > high) throw new Error('換界石階級需為 1～16，最小值不可大於最大值。');
+	if (low === 1 && high === 16) return '';
 	return `"階級 *${unsignedRange(low, high)}[）)]"`;
 }
 
@@ -205,14 +193,14 @@ export function propertyRange(label, min, max, limit = 9999, suffix = '') {
 		throw new Error(`${label}需為 0～${limit} 的整數，且最小值不可大於最大值。`);
 	}
 
-	// Percent minima mirror upstream's short property-prefix + number + % rule.
-	if (suffix === '%' && max === '') return `"${escapeRegex(label)}.*${minimumRange(low, true)}%"`;
+	// Keep the field prefix adjacent to the complete number.
+	if (suffix === '%' && max === '') return `"${escapeRegex(label)}[:：] *\\+?${minimumRange(low)} *%"`;
 
 	// Do not use .* with a maximum: it could consume the 1 in 150 and match 50.
 	const prefix = label === '等級' ? '^等級' : escapeRegex(label);
 	const number = unsignedRange(low, high);
 
-	return `"${prefix}[:：] *${suffix ? '\\+?' : ''}${number}${suffix || '\\b'}"`;
+	return `"${prefix}[:：] *${suffix ? '\\+?' : ''}${number}${suffix ? ' *' + suffix : '\\b'}"`;
 }
 
 export function propertiesQuery(settings) {
@@ -235,7 +223,6 @@ export function classQuery(names) {
 
 // Names verified against public trade item properties, not trade filter labels.
 export const waystoneFields = [
-	{ key: 'revives', label: '可用的復活數', limit: 6, suffix: '' },
 	{ key: 'itemRarity', label: '物品稀有度', limit: 9999, suffix: '%' },
 	{ key: 'packSize', label: '怪群大小', limit: 9999, suffix: '%' },
 	{ key: 'effectiveness', label: '怪物效能', limit: 9999, suffix: '%' },
@@ -243,14 +230,17 @@ export const waystoneFields = [
 	{ key: 'dropChance', label: '換界石掉落機率', limit: 9999, suffix: '%' },
 ];
 
-export function waystoneSummaryQuery(values = {}, delirious = false) {
-	return [
-		...waystoneFields.map(field => {
-			const { min = '', max = '' } = values[field.key] || {};
-			const query = propertyRange(field.label, min, max, field.limit, field.suffix);
+export function waystoneSummaryQuery(values = {}, round10 = false) {
+	return waystoneFields.map(field => {
+		const min = values[field.key] ?? '';
+		// Validate before rounding, so malformed inputs cannot become a valid threshold.
+		const query = propertyRange(field.label, min, '', field.limit, field.suffix);
 
-			return field.suffix === '%' && min !== '' && Number(min) === 0 && max === '' ? '' : query;
-		}),
-		delirious ? '"區域中玩家的譫妄為"' : '',
-	].filter(Boolean).join(' ');
+		if (min === '' || Number(min) === 0) return '';
+		if (!round10) return query;
+
+		const rounded = Math.floor(Number(min) / 10) * 10;
+
+		return rounded === 0 ? '' : propertyRange(field.label, String(rounded), '', field.limit, field.suffix);
+	}).filter(Boolean).join(' ');
 }

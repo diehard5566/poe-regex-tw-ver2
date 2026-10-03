@@ -16,11 +16,11 @@ export function MatchMode({ value, onChange, both = false }) {
 	))}</div>;
 }
 
-export function DataNote({ children }) {
+export function DataNote({ children, numeric = true }) {
 	return <details className="poe2-data-note">
 		<summary>資料來源、數值與比對限制</summary>
 		<p>文字核對：GGG 官方繁中詞綴，2026-10-03。候選分類參考 poe.re；未能確認的翻譯不列入，因此不是完整遊戲資料庫。</p>
-		<p># 依出現順序編號。可輸入 -9999～9999 的整數門檻；單邊留空不設限，最小＝最大代表指定數值。不取整、不加總，也不自動套用詞綴階級。一般與進階文字需選擇相應格式。</p>
+		{numeric && <p># 依出現順序編號。可輸入 -9999～9999 的整數門檻；單邊留空不設限，最小＝最大代表指定數值。不取整、不加總，也不自動套用詞綴階級。一般與進階文字需選擇相應格式。</p>}
 		<p>複合詞綴以個別屬性列出，不保證前後綴數量、詞綴階級或空詞綴。含合成屬性或進階數值範圍標記的遊戲文字仍需實測。</p>
 		{children}
 		<a href="https://pathofexile.tw/api/trade2/data/stats" target="_blank" rel="noopener noreferrer">官方詞綴</a>
