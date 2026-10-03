@@ -11,12 +11,17 @@ const ResultBox = props => {
 	const [autoCopy, setAutoCopy] = useState(false);
 
 	useEffect(() => {
-		if (autoCopy && !error && result.length < maxLength && navigator.clipboard) {
-			navigator.clipboard.writeText(result).catch(() => {
-				// 如果複製失敗，靜默處理
-			});
-			setCopied(result);
+		let active = true;
+
+		setCopied(undefined);
+
+		if (autoCopy && !error && result.length > 0 && result.length <= maxLength && navigator.clipboard) {
+			navigator.clipboard.writeText(result).then(() => {
+				if (active) setCopied(result);
+			}).catch(() => { /* Keep the result selectable when clipboard access fails. */ });
 		}
+
+		return () => { active = false; };
 	}, [result, autoCopy, error, maxLength]);
 
 	return (
@@ -32,6 +37,7 @@ const ResultBox = props => {
 				<div className="button-group">
 					<button
 						className="copy-button"
+						disabled={!result || Boolean(error) || result.length > maxLength}
 						onClick={() => {
 							if (navigator.clipboard) {
 								navigator.clipboard.writeText(result).then(() => {
@@ -47,7 +53,7 @@ const ResultBox = props => {
 									textArea.select();
 
 									try {
-										document.execCommand('copy');
+										if (!document.execCommand('copy')) throw new Error('複製失敗');
 										setCopied(result);
 									} catch (err) {
 										console.error('複製失敗:', err);
@@ -66,7 +72,7 @@ const ResultBox = props => {
 								textArea.select();
 
 								try {
-									document.execCommand('copy');
+									if (!document.execCommand('copy')) throw new Error('複製失敗');
 									setCopied(result);
 								} catch (err) {
 									console.error('複製失敗:', err);

@@ -1,0 +1,30 @@
+{
+  "source": "https://pathofexile.tw/api/trade2/fetch/",
+  "checkedAt": "2026-10-03",
+  "mods": [
+    {
+      "id": "sanctum.stat_978111083",
+      "text": "減少#%你身上的減益效果緩速程度",
+      "officialText": "增加#%你身上的減益效果緩速程度",
+      "sample": "減少18%你身上的減益效果緩速程度"
+    },
+    {
+      "id": "sanctum.stat_3554921410",
+      "text": "減少#%陷阱造成的傷害",
+      "officialText": "增加#%陷阱造成的傷害",
+      "sample": "減少7%陷阱造成的傷害"
+    },
+    {
+      "id": "sanctum.stat_3096446459",
+      "text": "減少#%販售價格",
+      "officialText": "增加#%販售價格",
+      "sample": "減少7%販售價格"
+    },
+    {
+      "id": "explicit.stat_941368244",
+      "text": "玩家有#%更少冷卻時間恢復率",
+      "officialText": "玩家有#%更多冷卻時間恢復率",
+      "sample": "玩家有30%更少冷卻時間恢復率"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "source": "https://pathofexile.tw/api/trade2/data/stats",
+  "checkedAt": "2026-10-03",
+  "validation": "official-stats-and-item-display",
+  "mods": [
+    {
+      "id": "explicit.stat_2539290279",
+      "text": "怪物為裝甲的",
+      "statIds": [
+        "explicit.stat_2539290279"
+      ],
+      "pattern": "怪物為裝甲"
+    },
+    {
+      "id": "explicit.stat_2570249991",
+      "text": "怪物為閃避的",
+      "statIds": [
+        "explicit.stat_2570249991"
+      ],
+      "pattern": "怪物為閃避"
+    },
+    {
+      "id": "explicit.stat_3376488707",
+      "text": "玩家#%最大抗性",
+      "statIds": [
+        "explicit.stat_3376488707"
+      ],
+      "pattern": "最大抗性"
+    },
+    {
+      "id": "explicit.stat_95249895",
+      "text": "#%更多怪物生命",
+      "statIds": [
+        "explicit.stat_95249895"
+      ],
+      "pattern": "更多怪物生命"
+    },
+    {
+      "id": "explicit.stat_3877264671",
+      "text": "怪物增加#%元素異常狀態施加",
+      "statIds": [
+        "explicit.stat_3877264671"
+      ],
+      "pattern": "元素異常狀態施加"
+    },
+    {
+      "id": "explicit.stat_349586058",
+      "text": "區域會有多塊冰緩地面",
+      "statIds": [
+        "explicit.stat_349586058"
+      ],
+      "pattern": "冰緩地面"
+    },
+    {
+      "id": "explicit.stat_3909654181",
+      "text": "怪物增加#%攻擊、施放、移動速度",
+      "statIds": [
+        "explicit.stat_3909654181"
+      ],
+      "pattern": "攻擊、施放、移動速度"
+    },
+    {
+      "id": "explicit.stat_1588049749",
+      "text": "怪物增加#%命中值",
+      "statIds": [
+        "explicit.stat_1588049749"
+      ],
+      "pattern": "怪物增加.*命中值"
+    },
+    {
+      "id": "explicit.stat_3477720557",
+      "text": "區域會有多塊感電地面",
+      "statIds": [
+        "explicit.stat_3477720557"
+      ],
+      "pattern": "感電地面"
+    },
+    {
+      "id": "explicit.stat_2506820610",
+      "text": "怪物有#%機率在擊中時引起流血",
+      "statIds": [
+        "explicit.stat_2506820610"
+      ],
+      "pattern": "擊中時引起流血"
+    },
+    {
+      "id": "explicit.stat_1890519597",
+      "text": "增加#%怪物傷害",
+      "statIds": [
+        "explicit.stat_1890519597"
+      ],
+      "pattern": "增加.*怪物傷害"
+    },
+    {
+      "id": "explicit.stat_95221307",
+      "text": "怪物有#%機率在擊中時造成中毒",
+      "statIds": [
+        "explicit.stat_95221307"
+      ],
+      "pattern": "擊中時造成中毒"
+    },
+    {
+      "id": "explicit.stat_4181072906",
+      "text": "玩家擁有#%更少生命和能量護盾恢復率",
+      "statIds": [
+        "explicit.stat_4181072906"
+      ],
+      "pattern": "更少生命和能量護盾恢復率"
+    },
+    {
+      "id": "explicit.stat_2549889921",
+      "text": "減少#%玩家獲得的藥劑充能",
+      "statIds": [
+        "explicit.stat_2549889921"
+      ],
+      "pattern": "玩家獲得的藥劑充能"
+    },
+    {
+      "id": "explicit.stat_1879340377",
+      "text": "怪物破壞的護甲值等同於造成的#%物理傷害",
+      "statIds": [
+        "explicit.stat_1879340377"
+      ],
+      "pattern": "破壞的護甲值"
+    },
+    {
+      "id": "explicit.stat_211727",
+      "text": "怪物造成等同於傷害#%的額外冰冷傷害",
+      "statIds": [
+        "explicit.stat_211727"
+      ],
+      "pattern": "額外冰冷傷害"
+    },
+    {
+      "id": "explicit.stat_2200661314",
+      "text": "怪物造成等同於傷害#%的額外混沌傷害",
+      "statIds": [
+        "explicit.stat_2200661314"
+      ],
+      "pattern": "額外混沌傷害"
+    },
+    {
+      "id": "explicit.stat_92381065",
+      "text": "怪物造成等同於傷害#%的額外火焰傷害",
+      "statIds": [
+        "explicit.stat_92381065"
+      ],
+      "pattern": "額外火焰傷害"
+    },
+    {
+      "id": "explicit.stat_1994551050",
+      "text": "增加#%怪物異常狀態門檻\n增加#%怪物的暈眩門檻",
+      "statIds": [
+        "explicit.stat_1994551050",
+        "explicit.stat_4101943684"
+      ],
+      "pattern": "怪物異常狀態門檻"
+    },
+    {
+      "id": "explicit.stat_3796523155",
+      "text": "怪物身上的詛咒具有#%更少效果",
+      "statIds": [
+        "explicit.stat_3796523155"
+      ],
+      "pattern": "詛咒具有"
+    },
+    {
+      "id": "explicit.stat_115425161",
+      "text": "增加#%怪物的暈眩累積",
+      "statIds": [
+        "explicit.stat_115425161"
+      ],
+      "pattern": "怪物的暈眩累積"
+    },
+    {
+      "id": "explicit.stat_512071314",
+      "text": "怪物造成等同於傷害#%的額外閃電傷害",
+      "statIds": [
+        "explicit.stat_512071314"
+      ],
+      "pattern": "額外閃電傷害"
+    },
+    {
+      "id": "explicit.stat_1629357380",
+      "text": "玩家正在持續被時空鎖鏈詛咒",
+      "statIds": [
+        "explicit.stat_1629357380"
+      ],
+      "pattern": "時空鎖鏈詛咒"
+    },
+    {
+      "id": "explicit.stat_1898978455",
+      "text": "怪物傷害穿透#%元素抗性",
+      "statIds": [
+        "explicit.stat_1898978455"
+      ],
+      "pattern": "怪物傷害穿透"
+    },
+    {
+      "id": "explicit.stat_1054098949",
+      "text": "+#%怪物元素抗性",
+      "statIds": [
+        "explicit.stat_1054098949"
+      ],
+      "pattern": "怪物元素抗性"
+    },
+    {
+      "id": "explicit.stat_554690751",
+      "text": "玩家正在持續被元素要害詛咒",
+      "statIds": [
+        "explicit.stat_554690751"
+      ],
+      "pattern": "元素要害詛咒"
+    },
+    {
+      "id": "explicit.stat_337935900",
+      "text": "怪物遭暴擊時，減少#%承受的額外傷害",
+      "statIds": [
+        "explicit.stat_337935900"
+      ],
+      "pattern": "承受的額外傷害"
+    },
+    {
+      "id": "explicit.stat_133340941",
+      "text": "區域中有多個點燃地面",
+      "statIds": [
+        "explicit.stat_133340941"
+      ],
+      "pattern": "點燃地面"
+    },
+    {
+      "id": "explicit.stat_2753083623",
+      "text": "增加#%怪物的暴擊率\n#%怪物暴擊傷害加成",
+      "statIds": [
+        "explicit.stat_2753083623",
+        "explicit.stat_57326096"
+      ],
+      "pattern": "怪物的暴擊率"
+    },
+    {
+      "id": "explicit.stat_2887760183",
+      "text": "怪物獲得等同於最大生命#%的額外最大能量護盾",
+      "statIds": [
+        "explicit.stat_2887760183"
+      ],
+      "pattern": "額外最大能量護盾"
+    },
+    {
+      "id": "explicit.stat_2029171424",
+      "text": "玩家正在持續被衰弱詛咒",
+      "statIds": [
+        "explicit.stat_2029171424"
+      ],
+      "pattern": "衰弱詛咒"
+    },
+    {
+      "id": "explicit.stat_941368244",
+      "text": "玩家有#%更少冷卻時間恢復率",
+      "officialText": "玩家有#%更多冷卻時間恢復率",
+      "sample": "玩家有30%更少冷卻時間恢復率",
+      "statIds": [
+        "explicit.stat_941368244"
+      ],
+      "pattern": "更少冷卻時間恢復率"
+    }
+  ]
+}

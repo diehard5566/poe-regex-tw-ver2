@@ -1,0 +1,51 @@
+.poe2-page { padding: 20px; color: var(--color-text); }
+.poe2-page h1 { padding: 0; margin-top: 0; }
+.poe2-description, .poe2-data-note { color: var(--color-text-secondary); line-height: 1.6; }
+.poe2-mode { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+.poe2-mode button { padding: 12px 18px; font-size: 18px; color: var(--color-text); background: #4a4a4a; border: 0; border-radius: 4px; cursor: pointer; }
+.poe2-mode button[aria-pressed="true"] { background: #307351; }
+.poe2-modifiers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.poe2-selector { background: var(--color-bg); padding: 15px; border-radius: 4px; min-width: 0; }
+.poe2-selector h2 { padding: 0; }
+.poe2-search-label { display: block; margin-bottom: 8px; color: var(--color-text-secondary); }
+.poe2-selector input[type="search"] { box-sizing: border-box; width: 100%; padding: 8px; font-size: 16px; }
+.poe2-selector li { margin: 0; }
+.poe2-selector li label { display: flex; align-items: flex-start; gap: 10px; padding: 10px 6px; cursor: pointer; font-size: 18px; line-height: 1.5; }
+.poe2-selector li label:hover, .poe2-selector .is-selected { background: rgba(255,255,255,.1); }
+.poe2-selector input[type="checkbox"] { flex-shrink: 0; width: 20px; height: 20px; margin-top: 4px; accent-color: #4d6873; }
+.poe2-selector span { white-space: pre-line; overflow-wrap: anywhere; }
+.poe2-page :focus-visible { outline: 2px solid var(--color-text-highlight); outline-offset: 3px; }
+.poe2-data-note { margin-top: 24px; }
+.poe2-data-note summary { cursor: pointer; }
+.poe2-data-note a { color: var(--color-text-link); }
+@media (max-width: 900px) { .poe2-modifiers { grid-template-columns: 1fr; } .poe2-page { padding: 10px; } }
+
+.poe2-page button { cursor: pointer; }
+.poe2-page button:disabled { cursor: not-allowed; opacity: .55; }
+.poe2-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 16px 0; }
+.poe2-toolbar label { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.poe2-toolbar input, .poe2-toolbar select { box-sizing: border-box; padding: 8px; max-width: 100%; font-size: 16px; }
+.poe2-toolbar input[type="number"] { width: 100px; }
+.poe2-toolbar button { padding: 9px 14px; border: 1px solid #475757; border-radius: 4px; color: var(--color-text); background: var(--color-area); font-size: 16px; }
+.poe2-type-list { display: flex; flex-wrap: wrap; gap: 16px; padding: 16px; border: 1px solid #475757; }
+.poe2-type-list label { display: flex; align-items: center; gap: 8px; }
+.poe2-type-list input { width: 18px; height: 18px; accent-color: #4d6873; }
+.poe2-value-fields { padding: 0 8px 12px 36px; display: flex; flex-wrap: wrap; gap: 8px; color: var(--color-text-secondary); font-size: 14px; }
+.poe2-value-fields .poe2-value-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.poe2-selector .poe2-value-fields label, .poe2-value-fields label { display: inline-flex; gap: 5px; padding: 0; font-size: 14px; align-items: center; }
+.poe2-value-fields input { width: 80px; padding: 4px; font-size: 16px; }
+.poe2-page .result { min-width: 0; }
+@media (max-width: 600px) {
+  .poe2-toolbar { align-items: stretch; }
+  .poe2-toolbar label { max-width: 100%; }
+  .poe2-value-fields { padding-left: 8px; }
+}
+.poe2-properties { border: 1px solid #475757; margin: 20px 0; padding: 16px; }
+.poe2-properties .poe2-value-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.poe2-properties input[type="checkbox"] { width: 18px; height: 18px; accent-color: #4d6873; }
+.poe2-summary-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 12px 0; }
+.poe2-summary-fields .poe2-value-row { display: flex; flex-wrap: wrap; gap: 12px; }
+.poe2-summary-fields label { display: flex; align-items: center; gap: 6px; }
+.poe2-summary-fields input { width: 75px; padding: 4px; }
+@media (max-width: 1100px) { .poe2-summary-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .poe2-summary-fields { grid-template-columns: 1fr; } }

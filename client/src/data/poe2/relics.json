@@ -1,0 +1,192 @@
+{
+  "source": "https://pathofexile.tw/api/trade2/data/stats",
+  "checkedAt": "2026-10-03",
+  "mods": [
+    {
+      "id": "sanctum.stat_1200789871",
+      "text": "增加#%最大生命",
+      "affix": "PREFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_3970123360",
+      "text": "增加#%最大榮譽",
+      "affix": "PREFIX",
+      "pattern": "%最大榮譽"
+    },
+    {
+      "id": "sanctum.stat_1583320325",
+      "text": "增加#%恢復的榮譽",
+      "affix": "PREFIX",
+      "pattern": "%恢復的"
+    },
+    {
+      "id": "sanctum.stat_231205265",
+      "text": "怪物有#%機率掉落兩倍聖水",
+      "affix": "SUFFIX",
+      "pattern": "率掉落兩"
+    },
+    {
+      "id": "sanctum.stat_2363402715",
+      "text": "噴泉有#%機率賦予兩倍聖水",
+      "affix": "SUFFIX",
+      "pattern": "%機率賦"
+    },
+    {
+      "id": "sanctum.stat_3096446459",
+      "text": "減少#%販售價格",
+      "officialText": "增加#%販售價格",
+      "sample": "減少7%販售價格",
+      "affix": "SUFFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_3865020351",
+      "text": "擊殺頭目時，恢復#榮譽",
+      "affix": "SUFFIX",
+      "pattern": "擊殺頭目"
+    },
+    {
+      "id": "sanctum.stat_2492340460",
+      "text": "膜拜一座馬拉克斯神殿時，恢復#榮譽",
+      "affix": "SUFFIX",
+      "pattern": "膜拜一座"
+    },
+    {
+      "id": "sanctum.stat_2393318075",
+      "text": "在試煉開始時獲得#個聖水",
+      "affix": "PREFIX",
+      "pattern": "在試煉開"
+    },
+    {
+      "id": "sanctum.stat_4057192895",
+      "text": "完成一個房間時，獲得#個聖水",
+      "affix": "SUFFIX",
+      "pattern": "成一個房"
+    },
+    {
+      "id": "sanctum.stat_2114314842",
+      "text": "完成房間時，恢復#榮譽",
+      "affix": "SUFFIX",
+      "pattern": "完成房間"
+    },
+    {
+      "id": "sanctum.stat_1960517795",
+      "text": "有#%機率避免獲得苦痛",
+      "affix": "SUFFIX",
+      "pattern": "率避免獲"
+    },
+    {
+      "id": "sanctum.stat_3114474137",
+      "text": "怪物增加#%傷害",
+      "affix": "PREFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_408585189",
+      "text": "增加#%稀有怪物承受傷害",
+      "affix": "PREFIX",
+      "pattern": "%稀有怪"
+    },
+    {
+      "id": "sanctum.stat_3226329527",
+      "text": "頭目增加承受#%傷害",
+      "affix": "PREFIX",
+      "pattern": "頭目增加"
+    },
+    {
+      "id": "sanctum.stat_290775436",
+      "text": "商人有1個額外選擇",
+      "affix": "PREFIX",
+      "pattern": "商人有1"
+    },
+    {
+      "id": "sanctum.stat_1680962389",
+      "text": "增加#%怪物掉落聖物的數量",
+      "affix": "SUFFIX",
+      "pattern": "物掉落聖"
+    },
+    {
+      "id": "sanctum.stat_1016362888",
+      "text": "增加#%護甲、閃避、和能量護盾",
+      "affix": "PREFIX",
+      "pattern": "%護甲、閃避、"
+    },
+    {
+      "id": "sanctum.stat_3554921410",
+      "text": "減少#%陷阱造成的傷害",
+      "officialText": "增加#%陷阱造成的傷害",
+      "sample": "減少7%陷阱造成的傷害",
+      "affix": "PREFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_1416455556",
+      "text": "增加#%移動速度",
+      "affix": "PREFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_1040593638",
+      "text": "閃避翻滾距離#公尺",
+      "affix": "SUFFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_978111083",
+      "text": "減少#%你身上的減益效果緩速程度",
+      "officialText": "增加#%你身上的減益效果緩速程度",
+      "sample": "減少18%你身上的減益效果緩速程度",
+      "affix": "SUFFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_2948404493",
+      "text": "對你的擊中減少#%暴擊傷害加成",
+      "affix": "SUFFIX",
+      "pattern": null
+    },
+    {
+      "id": "sanctum.stat_3170238729",
+      "text": "當你獲得一把鑰匙時，有#%機率獲得另一把",
+      "affix": "PREFIX",
+      "pattern": "獲得一把"
+    },
+    {
+      "id": "sanctum.stat_521869848",
+      "text": "拾起一把鑰匙時，恢復#榮譽",
+      "affix": "SUFFIX",
+      "pattern": "拾起一把"
+    },
+    {
+      "id": "sanctum.stat_2287831219",
+      "text": "#%至榮譽抗性",
+      "affix": "SUFFIX",
+      "pattern": "%至榮譽"
+    },
+    {
+      "id": "sanctum.stat_3096543632",
+      "text": "#%至最大榮譽抗性",
+      "affix": "SUFFIX",
+      "pattern": "至最大榮"
+    },
+    {
+      "id": "sanctum.stat_729354668",
+      "text": "增加#%怪物掉落的鑰匙數量",
+      "affix": "SUFFIX",
+      "pattern": "掉落的鑰"
+    },
+    {
+      "id": "sanctum.stat_3870327403",
+      "text": "有#%機率讓你在失去所有榮譽時，改為保有1榮譽",
+      "affix": "PREFIX",
+      "pattern": "%機率讓"
+    },
+    {
+      "id": "sanctum.stat_2155917449",
+      "text": "完成一個樓層時，有#%機率使你的每一把鑰匙升級",
+      "affix": "PREFIX",
+      "pattern": "成一個樓"
+    }
+  ]
+}

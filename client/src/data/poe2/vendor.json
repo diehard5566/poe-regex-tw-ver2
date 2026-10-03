@@ -1,0 +1,240 @@
+{
+  "source": "https://pathofexile.tw/api/trade2/data/stats",
+  "checkedAt": "2026-10-03",
+  "mods": [
+    {
+      "id": "explicit.stat_2250533757",
+      "text": "增加#%移動速度",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_3372524247",
+      "text": "#%火焰抗性",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_4220027924",
+      "text": "#%冰冷抗性",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_1671376347",
+      "text": "#%閃電抗性",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_2923486259",
+      "text": "#%混沌抗性",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_2901986750",
+      "text": "#%全元素抗性",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_3299347043",
+      "text": "#最大生命",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_1050105434",
+      "text": "#最大魔力",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_3981240776",
+      "text": "#精魂",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_3917489142",
+      "text": "增加#%找到的物品稀有度",
+      "affix": "BOTH",
+      "pattern": "%找到的"
+    },
+    {
+      "id": "explicit.stat_681332047",
+      "text": "增加#%攻擊速度",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_2891184298",
+      "text": "增加#%施法速度",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_1509134228",
+      "text": "增加#%物理傷害",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_2974417149",
+      "text": "增加#%法術傷害",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_1940865751",
+      "text": "附加#至#物理傷害",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_709508406",
+      "text": "附加#至#火焰傷害",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_1037193709",
+      "text": "附加#至#冰冷傷害",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_3336890334",
+      "text": "附加#至#閃電傷害",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_2223678961",
+      "text": "附加#至#混沌傷害",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_4080418644",
+      "text": "#點力量",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_3261801346",
+      "text": "#點敏捷",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_328541901",
+      "text": "#點智慧",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_2162097452",
+      "text": "全部召喚物技能等級#",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_9187492",
+      "text": "全部近戰技能的等級#",
+      "affix": "BOTH",
+      "pattern": "全部近戰"
+    },
+    {
+      "id": "explicit.stat_1202301673",
+      "text": "全部投射物技能等級#",
+      "affix": "BOTH",
+      "pattern": "全部投射"
+    },
+    {
+      "id": "explicit.stat_124131830",
+      "text": "全部法術技能等級#",
+      "affix": "BOTH",
+      "pattern": "部法術技"
+    },
+    {
+      "id": "explicit.stat_1545858329",
+      "text": "全部閃電法術技能等級#",
+      "affix": "BOTH",
+      "pattern": "部閃電法"
+    },
+    {
+      "id": "explicit.stat_591105508",
+      "text": "全部火焰法術技能等級#",
+      "affix": "BOTH",
+      "pattern": "部火焰法"
+    },
+    {
+      "id": "explicit.stat_2254480358",
+      "text": "全部冰冷法術技能等級#",
+      "affix": "BOTH",
+      "pattern": "部冰冷法"
+    },
+    {
+      "id": "explicit.stat_4226189338",
+      "text": "全部混沌法術技能等級#",
+      "affix": "BOTH",
+      "pattern": "部混沌法"
+    },
+    {
+      "id": "explicit.stat_1600707273",
+      "text": "全部物理法術技能等級#",
+      "affix": "BOTH",
+      "pattern": "全部物理"
+    },
+    {
+      "id": "explicit.stat_3035140377",
+      "text": "全部攻擊技能等級#",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_4283407333",
+      "text": "全部技能寶石等級#",
+      "affix": "BOTH",
+      "pattern": "部技能寶"
+    },
+    {
+      "id": "explicit.stat_599749213",
+      "text": "所有火焰技能的等級#",
+      "affix": "BOTH",
+      "pattern": "有火焰技"
+    },
+    {
+      "id": "explicit.stat_1147690586",
+      "text": "全部閃電技能等級#",
+      "affix": "BOTH",
+      "pattern": null
+    },
+    {
+      "id": "explicit.stat_3709513762",
+      "text": "元素要害技能等級#",
+      "affix": "BOTH",
+      "pattern": "害技能等"
+    },
+    {
+      "id": "explicit.stat_1078455967",
+      "text": "全部冰冷技能等級#",
+      "affix": "BOTH",
+      "pattern": "部冰冷技"
+    },
+    {
+      "id": "explicit.stat_805298720",
+      "text": "全部詛咒技能等級#",
+      "affix": "BOTH",
+      "pattern": "全部詛咒"
+    },
+    {
+      "id": "explicit.stat_67169579",
+      "text": "全部混沌技能等級#",
+      "affix": "BOTH",
+      "pattern": "部混沌技"
+    }
+  ]
+}

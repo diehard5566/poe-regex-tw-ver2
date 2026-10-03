@@ -1,0 +1,6751 @@
+{
+  "source": "https://pathofexile.tw/api/trade2/data/stats",
+  "checkedAt": "2026-10-03",
+  "baseSource": "https://pathofexile.tw/api/trade2/data/items",
+  "classes": [
+    {
+      "name": "生命藥劑",
+      "bases": [
+        "低階生命藥劑",
+        "中型生命藥劑",
+        "良質生命藥劑",
+        "優質生命藥劑",
+        "巨型生命藥劑",
+        "高階生命藥劑",
+        "巨大生命藥劑",
+        "卓越生命藥劑",
+        "終極生命藥劑"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3196823591",
+          "text": "增加#%獲得的充能",
+          "affix": "SUFFIX",
+          "pattern": "獲得的充"
+        },
+        {
+          "id": "explicit.stat_1366840608",
+          "text": "增加#%充能",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_828533480",
+          "text": "殺死敵人時有#%機率獲得一顆充能",
+          "affix": "SUFFIX",
+          "pattern": "敵人時有"
+        },
+        {
+          "id": "explicit.stat_1873752457",
+          "text": "每秒獲得#充能",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_173226756",
+          "text": "增加#%恢復率",
+          "affix": "PREFIX",
+          "pattern": "%恢復率"
+        },
+        {
+          "id": "explicit.stat_700317374",
+          "text": "增加#%恢復量",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_886931978",
+          "text": "貧血狀態時使用有#%更多恢復量",
+          "affix": "PREFIX",
+          "pattern": "血狀態時使"
+        },
+        {
+          "id": "explicit.stat_1261982764",
+          "text": "增加#%生命恢復",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_648019518",
+          "text": "使用時，會扣除生命恢復值#%的魔力",
+          "affix": "PREFIX",
+          "pattern": "會扣除生"
+        },
+        {
+          "id": "explicit.stat_2503377690",
+          "text": "#%恢復量立即恢復",
+          "affix": "PREFIX",
+          "pattern": "恢復量立"
+        },
+        {
+          "id": "explicit.stat_1526933524",
+          "text": "立即恢復",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2416869319",
+          "text": "得到#%召喚物生命恢復",
+          "affix": "PREFIX",
+          "pattern": "召喚物生"
+        }
+      ]
+    },
+    {
+      "name": "魔力藥劑",
+      "bases": [
+        "低階魔力藥劑",
+        "中型魔力藥劑",
+        "良質魔力藥劑",
+        "優質魔力藥劑",
+        "巨型魔力藥劑",
+        "高階魔力藥劑",
+        "巨大魔力藥劑",
+        "卓越魔力藥劑",
+        "終極魔力藥劑"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3196823591",
+          "text": "增加#%獲得的充能",
+          "affix": "SUFFIX",
+          "pattern": "獲得的充"
+        },
+        {
+          "id": "explicit.stat_1366840608",
+          "text": "增加#%充能",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_828533480",
+          "text": "殺死敵人時有#%機率獲得一顆充能",
+          "affix": "SUFFIX",
+          "pattern": "敵人時有"
+        },
+        {
+          "id": "explicit.stat_1873752457",
+          "text": "每秒獲得#充能",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_173226756",
+          "text": "增加#%恢復率",
+          "affix": "PREFIX",
+          "pattern": "%恢復率"
+        },
+        {
+          "id": "explicit.stat_700317374",
+          "text": "增加#%恢復量",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3276224428",
+          "text": "貧魔狀態時使用有#%更多恢復量",
+          "affix": "PREFIX",
+          "pattern": "魔狀態時使"
+        },
+        {
+          "id": "explicit.stat_1811130680",
+          "text": "增加#%魔力恢復",
+          "affix": "PREFIX",
+          "pattern": "%魔力恢"
+        },
+        {
+          "id": "explicit.stat_959641748",
+          "text": "使用時，會扣除魔力恢復值#%的生命",
+          "affix": "PREFIX",
+          "pattern": "會扣除魔"
+        },
+        {
+          "id": "explicit.stat_2503377690",
+          "text": "#%恢復量立即恢復",
+          "affix": "PREFIX",
+          "pattern": "恢復量立"
+        },
+        {
+          "id": "explicit.stat_1526933524",
+          "text": "立即恢復",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "項鍊",
+      "bases": [
+        "赤紅項鍊",
+        "蒼藍項鍊",
+        "琥珀護身符",
+        "翠玉護身符",
+        "海玉護身符",
+        "月神項鍊",
+        "血石項鍊",
+        "恆星項鍊",
+        "日耀項鍊",
+        "帝金護身符",
+        "珠光項鍊",
+        "幻象鎖鏈",
+        "悼亡護身符",
+        "惡兆護身符",
+        "虛無護身符",
+        "日冕護身符",
+        "幽暗項鍊",
+        "黃昏項鍊",
+        "半影項鍊",
+        "黑暗項鍊",
+        "扭曲項鍊",
+        "歪曲護身符"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1379411836",
+          "text": "#點全部能力值",
+          "affix": "SUFFIX",
+          "pattern": "點全部能"
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2901986750",
+          "text": "#%全元素抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_124131830",
+          "text": "全部法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部法術技"
+        },
+        {
+          "id": "explicit.stat_2162097452",
+          "text": "全部召喚物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_1202301673",
+          "text": "全部投射物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部投射"
+        },
+        {
+          "id": "explicit.stat_3325883026",
+          "text": "#每秒生命回復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_789117908",
+          "text": "增加#%魔力回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_587431675",
+          "text": "增加#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3556824919",
+          "text": "增加#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3917489142",
+          "text": "增加#%找到的物品稀有度",
+          "affix": "BOTH",
+          "pattern": "%找到的"
+        },
+        {
+          "id": "explicit.stat_1444556985",
+          "text": "承受的#%傷害補償為生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_472520716",
+          "text": "承受的#%傷害補償為魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2891184298",
+          "text": "增加#%施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_983749596",
+          "text": "增加#%最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2748665614",
+          "text": "增加#%最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3489782002",
+          "text": "#最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2866361420",
+          "text": "增加#%護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2482852589",
+          "text": "增加#%最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3981240776",
+          "text": "#精魂",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2974417149",
+          "text": "增加#%法術傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "戒指",
+      "bases": [
+        "鍛鐵戒指",
+        "青金石戒指",
+        "紅玉戒指",
+        "藍玉戒指",
+        "黃玉戒指",
+        "紫晶戒指",
+        "綠寶石戒指",
+        "珍珠戒指",
+        "三相戒指",
+        "金光戒指",
+        "潛能之戒",
+        "深淵之記",
+        "雙玉戒指",
+        "恆生之戒",
+        "維生之戒",
+        "憶念之戒",
+        "動力之戒",
+        "夢境之戒",
+        "抓取之戒",
+        "戒指",
+        "幽暗戒指",
+        "黃昏戒指",
+        "半影戒指",
+        "黑暗戒指",
+        "裂痕戒指",
+        "精製裂痕戒指"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1379411836",
+          "text": "#點全部能力值",
+          "affix": "SUFFIX",
+          "pattern": "點全部能"
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2901986750",
+          "text": "#%全元素抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3325883026",
+          "text": "#每秒生命回復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_789117908",
+          "text": "增加#%魔力回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2557965901",
+          "text": "以#%物理攻擊傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "擊傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_707457662",
+          "text": "以#%物理攻擊傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "擊傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3917489142",
+          "text": "增加#%找到的物品稀有度",
+          "affix": "BOTH",
+          "pattern": "%找到的"
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_2891184298",
+          "text": "增加#%施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2144192055",
+          "text": "#閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3032590688",
+          "text": "攻擊附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1573130764",
+          "text": "攻擊附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4067062424",
+          "text": "攻擊附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1754445556",
+          "text": "攻擊附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3962278098",
+          "text": "增加#%火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3291658075",
+          "text": "增加#%冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2231156303",
+          "text": "增加#%閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_736967255",
+          "text": "增加#%混沌傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "匕首",
+      "bases": [
+        "簡易匕首"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "法杖",
+      "bases": [
+        "凋零法杖",
+        "骸骨法杖",
+        "調和法杖",
+        "虹吸法杖",
+        "失衡法杖",
+        "電能法杖",
+        "刺鼻法杖",
+        "單挑法杖",
+        "扭曲法杖",
+        "符文尖叉"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_124131830",
+          "text": "全部法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部法術技"
+        },
+        {
+          "id": "explicit.stat_591105508",
+          "text": "全部火焰法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部火焰法"
+        },
+        {
+          "id": "explicit.stat_2254480358",
+          "text": "全部冰冷法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部冰冷法"
+        },
+        {
+          "id": "explicit.stat_1545858329",
+          "text": "全部閃電法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部閃電法"
+        },
+        {
+          "id": "explicit.stat_4226189338",
+          "text": "全部混沌法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部混沌法"
+        },
+        {
+          "id": "explicit.stat_1600707273",
+          "text": "全部物理法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部物理"
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_789117908",
+          "text": "增加#%魔力回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2891184298",
+          "text": "增加#%施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_737908626",
+          "text": "增加#%法術暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_274716455",
+          "text": "增加#%法術暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_2968503605",
+          "text": "增加#%易燃幅度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_473429811",
+          "text": "增加#%冰凍累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_293638271",
+          "text": "增加#%感電機率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2974417149",
+          "text": "增加#%法術傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3962278098",
+          "text": "增加#%火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3291658075",
+          "text": "增加#%冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2231156303",
+          "text": "增加#%閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_736967255",
+          "text": "增加#%混沌傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2768835289",
+          "text": "增加#%法術物理傷害",
+          "affix": "PREFIX",
+          "pattern": "%法術物"
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        },
+        {
+          "id": "explicit.stat_3015669065",
+          "text": "獲得等同於傷害#%的額外火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2505884597",
+          "text": "獲得等同於傷害#%的額外冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3278136794",
+          "text": "獲得等同於傷害#%的額外閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "單手劍",
+      "bases": [
+        "短劍",
+        "闊劍",
+        "短彎刀",
+        "焦黑短劍"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "單手斧",
+      "bases": [
+        "鈍斧"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "單手錘",
+      "bases": [
+        "木製棍棒",
+        "鍛造錘",
+        "纖細之錘",
+        "鈍釘木棒",
+        "戰鎬",
+        "華麗之錘",
+        "強盜之錘",
+        "建造錘",
+        "晨星",
+        "玉製棍棒",
+        "詛咒之錘",
+        "磨難棍棒",
+        "卡爾葛鍛造錘",
+        "升溫之錘",
+        "閃光之錘",
+        "戰鬥鎬",
+        "行軍之錘",
+        "盜賊之錘",
+        "建構之錘",
+        "符鍛晨星",
+        "輪緣之錘",
+        "皇冠之錘",
+        "熔火之錘",
+        "鬥爭鎬",
+        "強化之錘",
+        "劫掠之錘",
+        "艾古亞棍棒"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "弓",
+      "bases": [
+        "粗製弓",
+        "短弓",
+        "守護者之弓",
+        "反曲弓",
+        "合成弓",
+        "雙弦弓",
+        "教徒之弓",
+        "狂熱者之弓",
+        "砲火弓",
+        "部落弓",
+        "重弓",
+        "蛇木短弓",
+        "保衛者之弓",
+        "騎士之弓",
+        "雙生之弓",
+        "信徒之弓",
+        "好戰者之弓",
+        "符鍛守護者之弓",
+        "鐵木短弓",
+        "騎兵之弓",
+        "防衛者之弓",
+        "雙子之弓",
+        "盲信之弓",
+        "狂戰者之弓",
+        "毀滅者之弓",
+        "赤木之弓"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_1202301673",
+          "text": "全部投射物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部投射"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_2463230181",
+          "text": "#%滿溢機率發射額外一枚箭矢",
+          "affix": "SUFFIX",
+          "pattern": "額外一枚"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "長杖",
+      "bases": [
+        "灰燼長杖",
+        "極寒長杖",
+        "電流長杖",
+        "炎植長杖",
+        "鳴響長杖",
+        "死神長杖",
+        "咆哮長杖",
+        "麻木長杖",
+        "神化長杖",
+        "貪婪長杖",
+        "永凍長杖",
+        "映像長杖",
+        "棲羽長杖"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_124131830",
+          "text": "全部法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部法術技"
+        },
+        {
+          "id": "explicit.stat_591105508",
+          "text": "全部火焰法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部火焰法"
+        },
+        {
+          "id": "explicit.stat_2254480358",
+          "text": "全部冰冷法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部冰冷法"
+        },
+        {
+          "id": "explicit.stat_1545858329",
+          "text": "全部閃電法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部閃電法"
+        },
+        {
+          "id": "explicit.stat_4226189338",
+          "text": "全部混沌法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部混沌法"
+        },
+        {
+          "id": "explicit.stat_1600707273",
+          "text": "全部物理法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部物理"
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_789117908",
+          "text": "增加#%魔力回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2891184298",
+          "text": "增加#%施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_737908626",
+          "text": "增加#%法術暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_274716455",
+          "text": "增加#%法術暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_2968503605",
+          "text": "增加#%易燃幅度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_473429811",
+          "text": "增加#%冰凍累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_293638271",
+          "text": "增加#%感電機率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2974417149",
+          "text": "增加#%法術傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3962278098",
+          "text": "增加#%火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3291658075",
+          "text": "增加#%冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2231156303",
+          "text": "增加#%閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_736967255",
+          "text": "增加#%混沌傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2768835289",
+          "text": "增加#%法術物理傷害",
+          "affix": "PREFIX",
+          "pattern": "%法術物"
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        },
+        {
+          "id": "explicit.stat_3015669065",
+          "text": "獲得等同於傷害#%的額外火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2505884597",
+          "text": "獲得等同於傷害#%的額外冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3278136794",
+          "text": "獲得等同於傷害#%的額外閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "雙手劍",
+      "bases": [
+        "腐蝕長劍",
+        "鍛鐵巨劍",
+        "闊刃巨劍"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "雙手斧",
+      "bases": [
+        "分裂巨斧",
+        "輕巧斧槍",
+        "拱形巨斧",
+        "優雅長柄刀"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "雙手錘",
+      "bases": [
+        "墮落巨棍棒",
+        "橡木巨錘",
+        "鍛造重錘",
+        "鑲釘巨棍棒",
+        "教徒巨錘",
+        "神殿重錘",
+        "麻木巨錘",
+        "崩毀重錘",
+        "尖銳重錘",
+        "圖騰巨棍棒",
+        "巨型重錘",
+        "蛇木巨錘",
+        "鐵匠重錘",
+        "狂熱巨錘",
+        "莊嚴重錘",
+        "重型巨錘",
+        "崩解重錘",
+        "鐵砧重錘",
+        "神聖重錘",
+        "鐵木巨錘",
+        "盲信巨錘",
+        "毀滅重錘",
+        "巨型巨錘",
+        "塔赫亞巨棍棒",
+        "怪異攻城錘"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "箭袋",
+      "bases": [
+        "寬頭箭袋",
+        "火焰箭袋",
+        "聖禮箭袋",
+        "雙尖箭袋",
+        "鈍箭袋",
+        "劇毒箭袋",
+        "鋸齒箭袋",
+        "灌注箭袋",
+        "穿透箭袋",
+        "速射箭袋",
+        "內臟箭袋"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1202301673",
+          "text": "全部投射物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部投射"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2194114101",
+          "text": "增加#%攻擊暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3714003708",
+          "text": "增加#%攻擊傷害的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2321178454",
+          "text": "有#%機率穿透一個敵人",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2463230181",
+          "text": "#%滿溢機率發射額外一枚箭矢",
+          "affix": "SUFFIX",
+          "pattern": "額外一枚"
+        },
+        {
+          "id": "explicit.stat_3032590688",
+          "text": "攻擊附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1573130764",
+          "text": "攻擊附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4067062424",
+          "text": "攻擊附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1754445556",
+          "text": "攻擊附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3759663284",
+          "text": "增加#%投射物速度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1241625305",
+          "text": "增加#%弓技能的傷害",
+          "affix": "PREFIX",
+          "pattern": "%弓技能"
+        }
+      ]
+    },
+    {
+      "name": "腰帶",
+      "bases": [
+        "生皮腰帶",
+        "麻布腰帶",
+        "寬大腰帶",
+        "長腰帶",
+        "板甲腰帶",
+        "華麗腰帶",
+        "鎖甲腰帶",
+        "雙層腰帶",
+        "重革腰帶",
+        "實用腰帶",
+        "精良腰帶",
+        "獵跡腰帶",
+        "祈喚腰帶",
+        "韌筋腰帶",
+        "歧路腰帶"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_915769802",
+          "text": "暈眩門檻#",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3325883026",
+          "text": "#每秒生命回復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1836676211",
+          "text": "增加#%藥劑充能獲取",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_644456512",
+          "text": "減少#%藥劑充能使用",
+          "affix": "SUFFIX",
+          "pattern": "劑充能使"
+        },
+        {
+          "id": "explicit.stat_3585532255",
+          "text": "增加#%護符充能獲取",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1570770415",
+          "text": "減少#%護符充能使用",
+          "affix": "SUFFIX",
+          "pattern": "符充能使"
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_809229260",
+          "text": "#護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2881298780",
+          "text": "#至#點物理荊棘傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_51994685",
+          "text": "增加#%藥劑生命恢復率",
+          "affix": "PREFIX",
+          "pattern": "%藥劑生"
+        },
+        {
+          "id": "explicit.stat_1412217137",
+          "text": "增加#%藥劑魔力恢復率",
+          "affix": "PREFIX",
+          "pattern": "%藥劑魔"
+        },
+        {
+          "id": "explicit.stat_1389754388",
+          "text": "增加#%護符效果持續時間",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "手套",
+      "bases": [
+        "結實長手套",
+        "鉚接長手套",
+        "淬鍊長手套",
+        "加固長手套",
+        "鑄模長手套",
+        "精細長手套",
+        "泰坦長手套",
+        "麂皮護腕",
+        "穩固護腕",
+        "緊縛護腕",
+        "分段護腕",
+        "棘刺護腕",
+        "精良護腕",
+        "紋刻護腕",
+        "撕裂手套",
+        "暗淡手套",
+        "縫合手套",
+        "寶石手套",
+        "精妙手套",
+        "海靈鱗手套",
+        "刺繡手套",
+        "環鎖護手",
+        "層板護手",
+        "雙層護手",
+        "鎧甲護手",
+        "拋光護手",
+        "華麗護手",
+        "繩索腕帶",
+        "陳舊腕帶",
+        "金鑄腕帶",
+        "卡爾葛腕帶",
+        "紗布裹手",
+        "麻布裹手",
+        "盤繞裹手",
+        "帶扣裹手",
+        "隱秘裹手",
+        "實用裹手",
+        "宏偉手鐲",
+        "鎧甲長手套",
+        "優雅長手套",
+        "遠古長手套",
+        "羽毛長手套",
+        "狩獵護腕",
+        "迅疾護腕",
+        "精製護腕",
+        "尖刺護腕",
+        "惡兆手套",
+        "點綴手套",
+        "巴洛克手套",
+        "黃金手套",
+        "鐵鎖護手",
+        "隊長護手",
+        "狂熱護手",
+        "編織腕帶",
+        "家傳腕帶",
+        "華麗腕帶",
+        "繃帶裹手",
+        "棉布裹手",
+        "裝飾裹手",
+        "騎士長手套",
+        "華麗長手套",
+        "瓦爾長手套",
+        "巨型長手套",
+        "潛獵護腕",
+        "宏偉護腕",
+        "鉤刺護腕",
+        "亮澤護腕",
+        "冷酷手套",
+        "奢靡手套",
+        "瓦爾手套",
+        "海妖鱗手套",
+        "鋼鎖護手",
+        "指揮官護手",
+        "教徒護手",
+        "烏鐵護手",
+        "綑綁腕帶",
+        "遠古腕帶",
+        "輝光腕帶",
+        "追隨者腕帶",
+        "解脫纏帶",
+        "戰爭裹手",
+        "優雅裹手",
+        "瓦爾裹手",
+        "牢固裹手",
+        "符煉盤繞裹手"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_2557965901",
+          "text": "以#%物理攻擊傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "擊傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_707457662",
+          "text": "以#%物理攻擊傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "擊傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2797971005",
+          "text": "攻擊每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3556824919",
+          "text": "增加#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3917489142",
+          "text": "增加#%找到的物品稀有度",
+          "affix": "SUFFIX",
+          "pattern": "%找到的"
+        },
+        {
+          "id": "explicit.stat_2339757871",
+          "text": "增加#%能量護盾充能率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3362812763",
+          "text": "#%的護甲值也會套用至元素傷害",
+          "affix": "SUFFIX",
+          "pattern": "會套用至元"
+        },
+        {
+          "id": "explicit.stat_3033371881",
+          "text": "獲得等同#%閃避值的偏斜值",
+          "affix": "SUFFIX",
+          "pattern": "避值的偏"
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_809229260",
+          "text": "#護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2144192055",
+          "text": "#閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3489782002",
+          "text": "#最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2866361420",
+          "text": "增加#%護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4015621042",
+          "text": "增加#%能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2451402625",
+          "text": "增加#%護甲值和閃避",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3321629045",
+          "text": "增加#%護甲值和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "甲值和能"
+        },
+        {
+          "id": "explicit.stat_1999113824",
+          "text": "增加#%閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "%閃避和"
+        },
+        {
+          "id": "explicit.stat_3523867985",
+          "text": "增加#%護甲值、閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "護甲值、"
+        },
+        {
+          "id": "explicit.stat_3032590688",
+          "text": "攻擊附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1573130764",
+          "text": "攻擊附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4067062424",
+          "text": "攻擊附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1754445556",
+          "text": "攻擊附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "鞋子",
+      "bases": [
+        "粗糙脛甲",
+        "鐵鍛脛甲",
+        "青銅脛甲",
+        "鑲邊脛甲",
+        "岩石脛甲",
+        "礁鋼脛甲",
+        "生皮長靴",
+        "飾帶長靴",
+        "浮雕長靴",
+        "鐵趾長靴",
+        "蜥蜴鱗長靴",
+        "閃耀長靴",
+        "乾草便鞋",
+        "裹腳便鞋",
+        "格子便鞋",
+        "絲綢便鞋",
+        "羽毛便鞋",
+        "亞麻便鞋",
+        "鎖甲鎧靴",
+        "加固鎧靴",
+        "疊層鎧靴",
+        "遮蓋鎧靴",
+        "襯墊護腿",
+        "牢固護腿",
+        "堅皮護腿",
+        "編織者護腿",
+        "遠古護腿",
+        "磨損輕鞋",
+        "縫紉輕鞋",
+        "狩獵輕鞋",
+        "鋼尖輕鞋",
+        "絲絨輕鞋",
+        "宏偉腿甲",
+        "鎧甲脛甲",
+        "獅心脛甲",
+        "優雅脛甲",
+        "雕刻脛甲",
+        "綑綁長靴",
+        "光滑長靴",
+        "鑲釘長靴",
+        "蛇鱗長靴",
+        "飾帶便鞋",
+        "鐲子便鞋",
+        "優雅便鞋",
+        "沙丘行者便鞋",
+        "軍旅鎧靴",
+        "金刺繡鎧靴",
+        "堅堡鎧靴",
+        "信徒護腿",
+        "綑綁護腿",
+        "薩滿護腿",
+        "旅行者輕鞋",
+        "銀扣輕鞋",
+        "樹行者輕鞋",
+        "壁壘脛甲",
+        "華麗脛甲",
+        "瓦爾脛甲",
+        "塔薩里奧脛甲",
+        "繫帶長靴",
+        "騎兵長靴",
+        "龍鱗長靴",
+        "龍膚長靴",
+        "綑綁便鞋",
+        "奢華便鞋",
+        "沙誓便鞋",
+        "絲克瑪便鞋",
+        "老兵鎧靴",
+        "高貴鎧靴",
+        "要塞鎧靴",
+        "烏鋼鎧靴",
+        "信仰護腿",
+        "使徒護腿",
+        "術士護腿",
+        "隱祕護腿",
+        "漫遊者輕鞋",
+        "護符輕鞋",
+        "速行輕鞋",
+        "捷足輕鞋"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_915769802",
+          "text": "暈眩門檻#",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3325883026",
+          "text": "#每秒生命回復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3917489142",
+          "text": "增加#%找到的物品稀有度",
+          "affix": "SUFFIX",
+          "pattern": "%找到的"
+        },
+        {
+          "id": "explicit.stat_99927264",
+          "text": "減少#%你身上的感電持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1874553720",
+          "text": "減少#%你身上的冰緩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "你身上的冰緩"
+        },
+        {
+          "id": "explicit.stat_2160282525",
+          "text": "減少#%你身上的冰凍持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2339757871",
+          "text": "增加#%能量護盾充能率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3362812763",
+          "text": "#%的護甲值也會套用至元素傷害",
+          "affix": "SUFFIX",
+          "pattern": "會套用至元"
+        },
+        {
+          "id": "explicit.stat_3033371881",
+          "text": "獲得等同#%閃避值的偏斜值",
+          "affix": "SUFFIX",
+          "pattern": "避值的偏"
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_809229260",
+          "text": "#護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2144192055",
+          "text": "#閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3489782002",
+          "text": "#最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2866361420",
+          "text": "增加#%護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4015621042",
+          "text": "增加#%能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2451402625",
+          "text": "增加#%護甲值和閃避",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3321629045",
+          "text": "增加#%護甲值和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "甲值和能"
+        },
+        {
+          "id": "explicit.stat_1999113824",
+          "text": "增加#%閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "%閃避和"
+        },
+        {
+          "id": "explicit.stat_3523867985",
+          "text": "增加#%護甲值、閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "護甲值、"
+        },
+        {
+          "id": "explicit.stat_2250533757",
+          "text": "增加#%移動速度",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "胸甲",
+      "bases": [
+        "生鏽胸甲",
+        "毛皮鎧甲",
+        "鍛鐵胸甲",
+        "俠客鎧甲",
+        "馬拉克斯胸甲",
+        "堅鋼鎧甲",
+        "連身鎧甲",
+        "瓦爾胸甲",
+        "勇士鎧甲",
+        "酋長胸甲",
+        "冠軍胸甲",
+        "征服者鎧甲",
+        "皮革背心",
+        "襯墊背心",
+        "追獵者外套",
+        "籠罩背心",
+        "恐喙鳥皮外套",
+        "鑲釘背心",
+        "斥侯背心",
+        "蛇鱗外套",
+        "海盜背心",
+        "走私者外套",
+        "疾行者背心",
+        "精美背心",
+        "裝甲背心",
+        "殘破長袍",
+        "羽毛長袍",
+        "咒術師長袍",
+        "骸骨之衣",
+        "絲質之袍",
+        "凱斯之衣",
+        "還願之衣",
+        "祭壇長袍",
+        "元素使長袍",
+        "神秘之衣",
+        "鎧甲之衣",
+        "禍害之衣",
+        "啟蒙長袍",
+        "鎖鍊鎖甲",
+        "盜賊護甲",
+        "流浪者護甲",
+        "斗篷鎖甲",
+        "探索者護甲",
+        "鱗片鎖甲",
+        "騎士護甲",
+        "先祖鎖甲",
+        "分層鎖甲",
+        "英雄護甲",
+        "朝聖者法衣",
+        "堅皮披肩",
+        "鎖甲法衣",
+        "薩滿披肩",
+        "鐵甲法衣",
+        "獻祭披肩",
+        "教士法衣",
+        "潮汐先知披肩",
+        "鍍金法衣",
+        "尊敬法衣",
+        "烏鴉披肩",
+        "華貴環甲",
+        "遠古鎖甲",
+        "隱士裝束",
+        "打蠟外衣",
+        "修士裝束",
+        "旅人外衣",
+        "隱者裝束",
+        "投機者外衣",
+        "流氓外衣",
+        "苦行者裝束",
+        "刺客裝束",
+        "服裝",
+        "宏偉華服",
+        "獻祭法衣",
+        "貪婪鎧甲",
+        "野蠻人鎧甲",
+        "堅實胸甲",
+        "沙誓胸甲",
+        "優雅鎧甲",
+        "重型鎧甲",
+        "岩石胸甲",
+        "拼湊背心",
+        "狩獵外套",
+        "騎乘外套",
+        "分層背心",
+        "奔走者背心",
+        "蜥蜴鱗外套",
+        "飛羽長袍",
+        "詛咒語者長袍",
+        "奢華長袍",
+        "河流之衣",
+        "信徒之衣",
+        "儀式長袍",
+        "鐵環鎖甲",
+        "惡棍護甲",
+        "漫遊者護甲",
+        "披風鎖甲",
+        "開拓者護甲",
+        "耀金鎖甲",
+        "聖騎士法衣",
+        "熊皮披肩",
+        "鎖鏈法衣",
+        "秘術披肩",
+        "鎧甲法衣",
+        "雕心者披肩",
+        "上油外衣",
+        "傳道者裝束",
+        "遊歷者外衣",
+        "靈語者裝束",
+        "飼鷹者外衣",
+        "士兵胸甲",
+        "華麗鎧甲",
+        "奧札爾胸甲",
+        "總督胸甲",
+        "迅疾潛獵者外套",
+        "快速打擊背心",
+        "龍鱗外套",
+        "海盜外套",
+        "惡毒長袍",
+        "奔流之衣",
+        "聖禮長袍",
+        "羽絨之衣",
+        "惡徒護甲",
+        "遮蔽鎖甲",
+        "死亡鎖甲",
+        "領主鎖甲",
+        "狼皮披肩",
+        "巫術師披肩",
+        "死亡披肩",
+        "海洋風暴披肩",
+        "光滑外衣",
+        "漫步者外衣",
+        "訓鷹者外衣",
+        "樸素裝束",
+        "野性標記"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_915769802",
+          "text": "暈眩門檻#",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3325883026",
+          "text": "#每秒生命回復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_986397080",
+          "text": "減少#%你身上的點燃持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2339757871",
+          "text": "增加#%能量護盾充能率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3362812763",
+          "text": "#%的護甲值也會套用至元素傷害",
+          "affix": "SUFFIX",
+          "pattern": "會套用至元"
+        },
+        {
+          "id": "explicit.stat_3033371881",
+          "text": "獲得等同#%閃避值的偏斜值",
+          "affix": "SUFFIX",
+          "pattern": "避值的偏"
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_809229260",
+          "text": "#護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2144192055",
+          "text": "#閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3489782002",
+          "text": "#最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2866361420",
+          "text": "增加#%護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4015621042",
+          "text": "增加#%能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2451402625",
+          "text": "增加#%護甲值和閃避",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3321629045",
+          "text": "增加#%護甲值和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "甲值和能"
+        },
+        {
+          "id": "explicit.stat_1999113824",
+          "text": "增加#%閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "%閃避和"
+        },
+        {
+          "id": "explicit.stat_3523867985",
+          "text": "增加#%護甲值、閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "護甲值、"
+        },
+        {
+          "id": "explicit.stat_2881298780",
+          "text": "#至#點物理荊棘傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3981240776",
+          "text": "#精魂",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "頭部",
+      "bases": [
+        "黃金面紗",
+        "鏽蝕巨盔",
+        "士兵巨盔",
+        "纏繞巨盔",
+        "尖頂巨盔",
+        "菁英巨盔",
+        "戰士巨盔",
+        "指揮官巨盔",
+        "兇猛巨盔",
+        "破舊兜帽",
+        "毛氈便帽",
+        "綁帶兜帽",
+        "裹頭便帽",
+        "獵者之兜",
+        "毒蛇便帽",
+        "海盜便帽",
+        "皮革兜帽",
+        "天鵝絨便帽",
+        "隱蔽兜帽",
+        "裝甲便帽",
+        "嫩枝頭環",
+        "枝條頭冠",
+        "串珠頭環",
+        "鎖鍊頭冠",
+        "羽毛頭冠",
+        "黃金頭環",
+        "鍍金頭環",
+        "翠玉頭冠",
+        "瑪格思頭冠",
+        "邊緣之盔",
+        "警惕之盔",
+        "假面之盔",
+        "斗篷之盔",
+        "庇護之盔",
+        "緊閉之盔",
+        "裝飾之盔",
+        "遠古護面盔",
+        "鍛鐵之冠",
+        "犄角之冠",
+        "教徒之冠",
+        "殉難之冠",
+        "沉重之冠",
+        "魂骨之冠",
+        "幽暗寶冠",
+        "粗製之面",
+        "護臉之面",
+        "風帽之面",
+        "隱匿之面",
+        "部落之面",
+        "堅固之面",
+        "死亡之面",
+        "宏偉面紗",
+        "腐蝕巨盔",
+        "傭兵巨盔",
+        "家園守衛巨盔",
+        "優雅巨盔",
+        "高貴巨盔",
+        "破爛兜帽",
+        "羊毛便帽",
+        "狹窄兜帽",
+        "纏繞便帽",
+        "獵鹿者之兜",
+        "德魯伊頭環",
+        "飛羽頭冠",
+        "沙漠頭環",
+        "沙誓頭冠",
+        "叢林頭冠",
+        "圓頂之盔",
+        "紋刻之盔",
+        "士兵之盔",
+        "秘術師之盔",
+        "卡賽斯之盔",
+        "鎖甲之冠",
+        "森林之冠",
+        "狂熱之冠",
+        "聖潔之冠",
+        "判官之冠",
+        "橡木之面",
+        "盜賊之面",
+        "潛伏之面",
+        "輕蔑之面",
+        "飛羽之面",
+        "狂戰者巨盔",
+        "假面巨盔",
+        "楷模巨盔",
+        "帝國巨盔",
+        "編織便帽",
+        "沙漠便帽",
+        "捕獵者之兜",
+        "劫掠者便帽",
+        "天冠頭冠",
+        "巫術頭冠",
+        "卡瑪薩頭冠",
+        "先祖頭冠",
+        "保衛之盔",
+        "隱秘之盔",
+        "勇士之盔",
+        "衛士之盔",
+        "德魯伊之冠",
+        "聖徒之冠",
+        "神聖之冠",
+        "隱祕之冠",
+        "強盜之面",
+        "法里登之面",
+        "翱翔之面",
+        "獰笑之面"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2162097452",
+          "text": "全部召喚物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3325883026",
+          "text": "#每秒生命回復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_587431675",
+          "text": "增加#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3917489142",
+          "text": "增加#%找到的物品稀有度",
+          "affix": "BOTH",
+          "pattern": "%找到的"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_2339757871",
+          "text": "增加#%能量護盾充能率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3362812763",
+          "text": "#%的護甲值也會套用至元素傷害",
+          "affix": "SUFFIX",
+          "pattern": "會套用至元"
+        },
+        {
+          "id": "explicit.stat_3033371881",
+          "text": "獲得等同#%閃避值的偏斜值",
+          "affix": "SUFFIX",
+          "pattern": "避值的偏"
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_809229260",
+          "text": "#護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2144192055",
+          "text": "#閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3489782002",
+          "text": "#最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2866361420",
+          "text": "增加#%護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4015621042",
+          "text": "增加#%能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2451402625",
+          "text": "增加#%護甲值和閃避",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3321629045",
+          "text": "增加#%護甲值和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "甲值和能"
+        },
+        {
+          "id": "explicit.stat_1999113824",
+          "text": "增加#%閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "%閃避和"
+        },
+        {
+          "id": "explicit.stat_3523867985",
+          "text": "增加#%護甲值、閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "護甲值、"
+        }
+      ]
+    },
+    {
+      "name": "盾",
+      "bases": [
+        "朽木塔盾",
+        "彩繪塔盾",
+        "加固塔盾",
+        "障壁塔盾",
+        "靈像塔盾",
+        "壁壘塔盾",
+        "紋章塔盾",
+        "岩石塔盾",
+        "磨煉塔盾",
+        "先祖塔盾",
+        "黑鋼塔盾",
+        "硬木圓盾",
+        "毛皮圓盾",
+        "鑲釘圓盾",
+        "新月圓盾",
+        "鑿刻圓盾",
+        "羽毛圓盾",
+        "分層圓盾",
+        "雕刻圓盾",
+        "家徽紋章盾",
+        "符印紋章盾",
+        "徽印紋章盾",
+        "響聲紋章盾",
+        "宗派紋章盾",
+        "預兆紋章盾",
+        "剛愎紋章盾",
+        "先知紋章盾",
+        "陳舊塔盾",
+        "金屬塔盾",
+        "教徒塔盾",
+        "守護塔盾",
+        "高貴塔盾",
+        "黃金塔盾",
+        "鐵木圓盾",
+        "皮襯圓盾",
+        "傭兵圓盾",
+        "拋光圓盾",
+        "岩石圓盾",
+        "飛羽圓盾",
+        "彩繪紋章盾",
+        "紋刻紋章盾",
+        "遠見紋章盾",
+        "部下紋章盾",
+        "四分紋章盾",
+        "怒視紋章盾",
+        "皇族塔盾",
+        "要塞塔盾",
+        "瓦爾塔盾",
+        "塔赫亞塔盾",
+        "冰川堡壘",
+        "猛獁圓盾",
+        "巴洛克圓盾",
+        "翱翔圓盾",
+        "耀金圓盾",
+        "古老護衛盾",
+        "錯綜紋章盾",
+        "絲克瑪紋章盾",
+        "瓦爾紋章盾",
+        "烏鋼紋章盾"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2901986750",
+          "text": "#%全元素抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_915769802",
+          "text": "暈眩門檻#",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3855016469",
+          "text": "對你的擊中減少#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3771516363",
+          "text": "額外#%物理傷害減免",
+          "affix": "SUFFIX",
+          "pattern": "%物理傷害減"
+        },
+        {
+          "id": "explicit.stat_4095671657",
+          "text": "#%最大火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3676141501",
+          "text": "#%最大冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1011760251",
+          "text": "#%最大閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1301765461",
+          "text": "#%最大混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1978899297",
+          "text": "#%最大全元素抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2339757871",
+          "text": "增加#%能量護盾充能率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3362812763",
+          "text": "#%的護甲值也會套用至元素傷害",
+          "affix": "SUFFIX",
+          "pattern": "會套用至元"
+        },
+        {
+          "id": "explicit.stat_3033371881",
+          "text": "獲得等同#%閃避值的偏斜值",
+          "affix": "SUFFIX",
+          "pattern": "避值的偏"
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_809229260",
+          "text": "#護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2144192055",
+          "text": "#閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3489782002",
+          "text": "#最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2866361420",
+          "text": "增加#%護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4015621042",
+          "text": "增加#%能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2451402625",
+          "text": "增加#%護甲值和閃避",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3321629045",
+          "text": "增加#%護甲值和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "甲值和能"
+        },
+        {
+          "id": "explicit.stat_1999113824",
+          "text": "增加#%閃避和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "%閃避和"
+        },
+        {
+          "id": "explicit.stat_2881298780",
+          "text": "#至#點物理荊棘傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "權杖",
+      "bases": [
+        "雜響權杖",
+        "魔道權杖",
+        "徵兆權杖",
+        "神殿權杖",
+        "暴怒權杖"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3850614073",
+          "text": "#%處於你存在範圍中的友方全元素抗性",
+          "affix": "SUFFIX",
+          "pattern": "的友方全"
+        },
+        {
+          "id": "explicit.stat_2162097452",
+          "text": "全部召喚物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_4010677958",
+          "text": "處於你存在範圍中的友方每秒回復#生命",
+          "affix": "SUFFIX",
+          "pattern": "你存在範圍中的友方每"
+        },
+        {
+          "id": "explicit.stat_789117908",
+          "text": "增加#%魔力回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1998951374",
+          "text": "處於你存在範圍中的友方增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_289128254",
+          "text": "處於你存在範圍中的友方增加#%施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1250712710",
+          "text": "處於你存在範圍中的友方增加#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_3057012405",
+          "text": "處於你存在範圍中的友方增加#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_101878827",
+          "text": "增加#%存在範圍的範圍效果",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_770672621",
+          "text": "召喚物增加#%最大生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1574590649",
+          "text": "處於你存在範圍中的友方造成#至#額外攻擊物理傷害",
+          "affix": "PREFIX",
+          "pattern": "外攻擊物"
+        },
+        {
+          "id": "explicit.stat_849987426",
+          "text": "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害",
+          "affix": "PREFIX",
+          "pattern": "外攻擊火"
+        },
+        {
+          "id": "explicit.stat_2347036682",
+          "text": "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": "外攻擊冰"
+        },
+        {
+          "id": "explicit.stat_2854751904",
+          "text": "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害",
+          "affix": "PREFIX",
+          "pattern": "外攻擊閃"
+        },
+        {
+          "id": "explicit.stat_1798257884",
+          "text": "增加#%處於你存在範圍中的友方所造成的傷害",
+          "affix": "PREFIX",
+          "pattern": "的友方所"
+        },
+        {
+          "id": "explicit.stat_3984865854",
+          "text": "增加#%精魂",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "護符",
+      "bases": [
+        "解凍護符",
+        "止血護符",
+        "解毒護符",
+        "滅火護符",
+        "接地護符",
+        "岩石護符",
+        "白銀護符",
+        "紅玉護符",
+        "藍玉護符",
+        "黃玉護符",
+        "紫晶護符",
+        "黃金護符"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3196823591",
+          "text": "增加#%獲得的充能",
+          "affix": "SUFFIX",
+          "pattern": "獲得的充"
+        },
+        {
+          "id": "explicit.stat_1366840608",
+          "text": "增加#%充能",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_828533480",
+          "text": "殺死敵人時有#%機率獲得一顆充能",
+          "affix": "SUFFIX",
+          "pattern": "敵人時有"
+        },
+        {
+          "id": "explicit.stat_1873752457",
+          "text": "每秒獲得#充能",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2365392475",
+          "text": "使用後恢復#生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1120862500",
+          "text": "使用後恢復#魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2676834156",
+          "text": "同時賦予#層守護",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "珠寶",
+      "bases": [
+        "紅寶石",
+        "綠寶石",
+        "藍寶石",
+        "鑽石",
+        "時迭紅寶石",
+        "時迭綠寶石",
+        "時迭藍寶石",
+        "時迭鑽石"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_624954515",
+          "text": "增加#%命中值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1303248024",
+          "text": "增加#%你所施加之異常狀態的幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_280731498",
+          "text": "增加#%範圍效果",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2866361420",
+          "text": "增加#%護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1776411443",
+          "text": "增加#%護甲值破壞",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2843214518",
+          "text": "增加#%攻擊傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2174054121",
+          "text": "擊中時有#%機率造成流血",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1585769763",
+          "text": "增加#%致盲效果",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4147897060",
+          "text": "增加#%格擋機率",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1852872083",
+          "text": "擊中對稀有和傳奇增加#%傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_169946467",
+          "text": "使用弓類武器時增加#%命中值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4188894176",
+          "text": "持弓類武器時增加#%傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_627767961",
+          "text": "當你有一個作用中的護符，增加#%傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_736967255",
+          "text": "增加#%混沌傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3291658075",
+          "text": "增加#%冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3417711605",
+          "text": "傷害穿透#%冰冷抗性",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2118708619",
+          "text": "若你近期消耗過屍體，增加#%傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_440490623",
+          "text": "增加#%你以暴擊施加之傷害型異常狀態的幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_427684353",
+          "text": "增加#%十字弓傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_153777645",
+          "text": "增加#%詛咒範圍效果",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2353576063",
+          "text": "增加#%詛咒幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2301718443",
+          "text": "增加#%對完全破甲敵人造成的傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3141070085",
+          "text": "增加#%元素傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1569101201",
+          "text": "增加#%強化攻擊造成的傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2482852589",
+          "text": "增加#%最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1782086450",
+          "text": "能量護盾開始充能速度加快#%",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3962278098",
+          "text": "增加#%火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2653955271",
+          "text": "傷害穿透#%火焰抗性",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3174700878",
+          "text": "增加#%來自已裝備法器的能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_21071013",
+          "text": "增加#%捷光環技能造成的傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3791899485",
+          "text": "增加#%點燃幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2231156303",
+          "text": "增加#%閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_818778753",
+          "text": "傷害穿透#%閃電抗性",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1181419800",
+          "text": "增加#%錘傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_712554801",
+          "text": "增加#%你的印記技能效果",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1181501418",
+          "text": "#層最大盛怒",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1002362373",
+          "text": "增加#%近戰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3811191316",
+          "text": "增加#%召喚物的範圍效果",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1589917703",
+          "text": "增加#%召喚物造成的傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_770672621",
+          "text": "召喚物增加#%最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3787460122",
+          "text": "奉獻增加#%最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1310194496",
+          "text": "增加#%全域物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2487305362",
+          "text": "增加#%你所施加之中毒的幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1839076647",
+          "text": "增加#%投射物傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3759663284",
+          "text": "增加#%投射物速度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4045894391",
+          "text": "增加#%細杖傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1200678966",
+          "text": "增加#%從已裝備箭袋獲得的加成",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2523933828",
+          "text": "增加#%來自裝備盾牌的護甲、閃避與能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2527686725",
+          "text": "增加#%你所施加之感電的幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2696027455",
+          "text": "增加#%長矛傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2974417149",
+          "text": "增加#%法術傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3166958180",
+          "text": "增加#%你所施加之流血的幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1315743832",
+          "text": "增加#%荊棘傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3851254963",
+          "text": "增加#%圖騰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_686254215",
+          "text": "增加#%圖騰生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3067892458",
+          "text": "觸發法術增加#%造成的法術傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1594812856",
+          "text": "增加#%戰吼傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3973629633",
+          "text": "增加#%凋零幅度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3596695232",
+          "text": "如果你在過去8秒內以近戰擊中，增加#%則投射物傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3028809864",
+          "text": "如果你在過去8秒內以投射物攻擊擊中，增加#%近戰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1569159338",
+          "text": "增加#%招架傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_234296660",
+          "text": "增加#%盟友造成的傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1805182458",
+          "text": "增加#%盟友的最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1697951953",
+          "text": "增加#%危險的傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_429143663",
+          "text": "鬥旗技能增加#%範圍效果",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_101878827",
+          "text": "增加#%存在範圍的範圍效果",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3891355829|1",
+          "text": "升級範圍至中",
+          "affix": "PREFIX",
+          "pattern": "範圍至中"
+        },
+        {
+          "id": "explicit.stat_3891355829|2",
+          "text": "升級範圍至大",
+          "affix": "PREFIX",
+          "pattern": "範圍至大"
+        },
+        {
+          "id": "explicit.stat_2440073079",
+          "text": "變形期間增加#%傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2518900926",
+          "text": "植物技能增加#%傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1772247089",
+          "text": "增加#%造成異常狀態的機率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3544800472",
+          "text": "增加#%元素異常狀態門檻",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2637470878",
+          "text": "增加#%護甲破壞持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2194114101",
+          "text": "增加#%攻擊暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3714003708",
+          "text": "增加#%攻擊傷害的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1459321413",
+          "text": "增加#%流血持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_318953428",
+          "text": "攻擊擊中有#%機率致盲敵人",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3759735052",
+          "text": "弓增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2891184298",
+          "text": "增加#%施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4081947835",
+          "text": "投射物有#%機率從地形額外連鎖一次",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1389754388",
+          "text": "增加#%護符效果持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3585532255",
+          "text": "增加#%護符充能獲取",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3485067555",
+          "text": "增加#%敵人身上的冰緩持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1004011302",
+          "text": "增加#%冷卻時間恢復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_587431675",
+          "text": "增加#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3556824919",
+          "text": "增加#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_274716455",
+          "text": "增加#%法術暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3192728503",
+          "text": "增加#%十字弓裝填速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1135928777",
+          "text": "增加#%十字弓攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1104825894",
+          "text": "詛咒啟動速度加快#%",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3824372849",
+          "text": "增加#%詛咒持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_458438597",
+          "text": "生命值所受的#%傷害由魔力扣除",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1829102168",
+          "text": "增加#%敵人身上的傷害型異常狀態持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1238227257",
+          "text": "你身上的減益效果加快#%失效",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1062710370",
+          "text": "增加#%敵人身上的點燃、感電和冰緩持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4236566306",
+          "text": "增加#%主要技能獲得能量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_538241406",
+          "text": "傷害型異常狀態造成傷害加速#%",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1836676211",
+          "text": "增加#%藥劑充能獲取",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3741323227",
+          "text": "增加#%藥劑效果持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3003542304",
+          "text": "投射物分裂時有#%機率發射1個額外投射物",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_473429811",
+          "text": "增加#%冰凍累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3780644166",
+          "text": "增加#%冰凍門檻",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2968503605",
+          "text": "增加#%易燃幅度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3377888098",
+          "text": "增加#%技能效果持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_565784293",
+          "text": "增加#%擊退距離",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2480498143",
+          "text": "#%技能魔力消耗轉換為生命消耗",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821241191",
+          "text": "增加#%藥劑的生命恢復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4009879772",
+          "text": "增加#%生命藥劑充能獲取",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2112395885",
+          "text": "增加#%生命偷取量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2023107756",
+          "text": "擊殺時恢復#%生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1444556985",
+          "text": "承受的#%傷害補償為生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_44972811",
+          "text": "增加#%生命回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_872504239",
+          "text": "使用錘時，增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2222186378",
+          "text": "增加#%藥劑的魔力恢復",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3590792340",
+          "text": "增加#%魔力藥劑充能獲取",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2839066308",
+          "text": "增加#%魔力偷取量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1030153674",
+          "text": "擊殺時恢復#%魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_789117908",
+          "text": "增加#%魔力回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1714971114",
+          "text": "增加#%印記技能的施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2594634307",
+          "text": "印記技能增加#%技能效果持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3676141501",
+          "text": "#%最大冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4095671657",
+          "text": "#%最大火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1011760251",
+          "text": "#%最大閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3091578504",
+          "text": "召喚物增加#%攻擊和施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3837707023",
+          "text": "召喚物#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_491450213",
+          "text": "增加#%召喚物的暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1854213750",
+          "text": "召喚物增加#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3119612865",
+          "text": "召喚物有#%額外物理傷害減免",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1423639565",
+          "text": "召喚物#%全部元素抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2250533757",
+          "text": "增加#%移動速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2957407601",
+          "text": "奉獻技能增加#%持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2321178454",
+          "text": "有#%機率穿透一個敵人",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3473929743",
+          "text": "增加#%釘身累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_795138349",
+          "text": "擊中時有#%機率造成中毒",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2011656677",
+          "text": "增加#%中毒持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1697447343",
+          "text": "增加#%細杖的冰凍累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3283482523",
+          "text": "增加#%細杖攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2709367754",
+          "text": "近戰擊中時，獲得#層盛怒",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3292710273",
+          "text": "遭敵人擊中時，獲得#層盛怒",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_293638271",
+          "text": "增加#%感電機率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3668351662",
+          "text": "增加#%感電持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "sanctum.stat_978111083",
+          "text": "減少#%你身上的減益效果緩速程度",
+          "officialText": "增加#%你身上的減益效果緩速程度",
+          "sample": "減少18%你身上的減益效果緩速程度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1165163804",
+          "text": "增加#%長矛攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2456523742",
+          "text": "增加#%使用長矛時暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_737908626",
+          "text": "增加#%法術暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_680068163",
+          "text": "增加#%暈眩門檻",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_416040624",
+          "text": "獲得等同於最大能量護盾#%的額外暈眩門檻",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3398301358",
+          "text": "獲得等同於最大能量護盾#%的額外異常狀態門檻",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1405298142",
+          "text": "若你近期未遭暈眩，增加#%暈眩門檻",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3374165039",
+          "text": "增加#%圖騰設置速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4159248054",
+          "text": "增加#%戰吼冷卻時間恢復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1316278494",
+          "text": "增加#%戰吼速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3401186585",
+          "text": "增加#%受招架減益效果持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1911237468",
+          "text": "招架期間增加#%暈眩門檻",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1869147066",
+          "text": "鬥旗技能增加#%生成的榮耀",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2720982137",
+          "text": "鬥旗技能增加#%持續時間",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1060572482",
+          "text": "增加#%範圍內小型天賦的效果",
+          "affix": "SUFFIX",
+          "pattern": "型天賦的"
+        },
+        {
+          "id": "explicit.stat_4234573345",
+          "text": "增加#%範圍內核心天賦的效果",
+          "affix": "SUFFIX",
+          "pattern": "心天賦的"
+        },
+        {
+          "id": "explicit.stat_918325986",
+          "text": "你變形期間，增加#%技能速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "細杖",
+      "bases": [
+        "纏繞細杖",
+        "加長細杖",
+        "歌德細杖",
+        "裂紋細杖",
+        "新月細杖",
+        "鋼尖細杖",
+        "斬割細杖",
+        "屏障細杖",
+        "堅固細杖",
+        "平滑細杖",
+        "蠕蟲細杖",
+        "延伸細杖",
+        "野蠻細杖",
+        "電弧細杖",
+        "白蠟細杖",
+        "帶刃細杖",
+        "守護細杖",
+        "邪惡細杖",
+        "月神細杖",
+        "打擊細杖",
+        "雷霆細杖",
+        "神禦細杖",
+        "剃刃細杖",
+        "碎顱細杖",
+        "夢境細杖",
+        "庇護細杖"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "長矛",
+      "bases": [
+        "硬木長矛",
+        "鐵木長矛",
+        "狩獵長矛",
+        "羽翅長矛",
+        "戰爭長矛",
+        "叉狀長矛",
+        "鉤刺長矛",
+        "闊刃長矛",
+        "十字刃長矛",
+        "海玻璃長矛",
+        "劍刃長矛",
+        "突擊長矛",
+        "螺旋長矛",
+        "鋼尖長矛",
+        "追獵長矛",
+        "迅疾長矛",
+        "分支長矛",
+        "鋸齒長矛",
+        "巨型長矛",
+        "山銅長矛",
+        "展翼長矛",
+        "尖叉長矛",
+        "潛獵長矛",
+        "翱翔長矛",
+        "宏偉長矛",
+        "尖刺長矛",
+        "衛者長矛",
+        "艾古亞長矛"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_1202301673",
+          "text": "全部投射物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部投射"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "十字弓",
+      "bases": [
+        "臨時十字弓",
+        "緊繃十字弓",
+        "堅固十字弓",
+        "亮漆十字弓",
+        "雙生十字弓",
+        "合金十字弓",
+        "轟擊十字弓",
+        "絕命十字弓",
+        "黑火十字弓",
+        "穿刺十字弓",
+        "強健十字弓",
+        "彩繪十字弓",
+        "成雙十字弓",
+        "砲擊十字弓",
+        "無情十字弓",
+        "牢固十字弓",
+        "紋刻十字弓",
+        "屈曲十字弓",
+        "雙子十字弓",
+        "攻城十字弓",
+        "蒼涼十字弓",
+        "優雅十字弓",
+        "特拉特斯巨砲"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_1202301673",
+          "text": "全部投射物技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部投射"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2250681686",
+          "text": "擲彈技能有+#次冷卻使用次數",
+          "affix": "SUFFIX",
+          "pattern": "彈技能有"
+        },
+        {
+          "id": "explicit.stat_1980802737",
+          "text": "擲彈技能發射額外一個投射物",
+          "affix": "SUFFIX",
+          "pattern": "彈技能發"
+        },
+        {
+          "id": "explicit.stat_1544773869",
+          "text": "增加#%擲彈技能冷卻時間恢復率",
+          "affix": "SUFFIX",
+          "pattern": "%擲彈技"
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "法器",
+      "bases": [
+        "枝條法器",
+        "編織法器",
+        "靈鹿法器",
+        "紋刻法器",
+        "音調法器",
+        "水晶法器",
+        "巫毒法器",
+        "羽飾法器",
+        "符文法器",
+        "螺旋法器",
+        "花環法器",
+        "鹿角法器",
+        "響聲法器",
+        "陣列法器",
+        "教徒法器",
+        "聖潔法器",
+        "德魯伊法器",
+        "地脈法器",
+        "神聖法器",
+        "塔薩里奧法器"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_124131830",
+          "text": "全部法術技能等級#",
+          "affix": "SUFFIX",
+          "pattern": "部法術技"
+        },
+        {
+          "id": "explicit.stat_789117908",
+          "text": "增加#%魔力回復率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2891184298",
+          "text": "增加#%施法速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_737908626",
+          "text": "增加#%法術暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_274716455",
+          "text": "增加#%法術暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2339757871",
+          "text": "增加#%能量護盾充能率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3489782002",
+          "text": "#最大能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4015621042",
+          "text": "增加#%能量護盾",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2974417149",
+          "text": "增加#%法術傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3962278098",
+          "text": "增加#%火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3291658075",
+          "text": "增加#%冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2231156303",
+          "text": "增加#%閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_736967255",
+          "text": "增加#%混沌傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2768835289",
+          "text": "增加#%法術物理傷害",
+          "affix": "PREFIX",
+          "pattern": "%法術物"
+        }
+      ]
+    },
+    {
+      "name": "鏈錘",
+      "bases": [
+        "分裂鏈錘",
+        "神聖鏈錘",
+        "雙生鏈錘"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_9187492",
+          "text": "全部近戰技能的等級#",
+          "affix": "SUFFIX",
+          "pattern": "全部近戰"
+        },
+        {
+          "id": "explicit.stat_55876295",
+          "text": "以#%物理傷害偷取生命",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取生"
+        },
+        {
+          "id": "explicit.stat_669069897",
+          "text": "以#%物理傷害偷取魔力",
+          "affix": "SUFFIX",
+          "pattern": "理傷害偷取魔"
+        },
+        {
+          "id": "explicit.stat_3695891184",
+          "text": "每個被擊殺的敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1368271171",
+          "text": "每個被擊殺的敵人，獲得#魔力",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_821021828",
+          "text": "每擊中一名敵人，獲得#生命",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_681332047",
+          "text": "增加#%攻擊速度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_518292764",
+          "text": "#%暴擊率",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2694482655",
+          "text": "#%的暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": "%的暴擊"
+        },
+        {
+          "id": "explicit.stat_803737631",
+          "text": "#命中值",
+          "affix": "BOTH",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1263695895",
+          "text": "增加#%照亮範圍",
+          "affix": "SUFFIX",
+          "pattern": "%照亮範"
+        },
+        {
+          "id": "explicit.stat_748522257",
+          "text": "增加#%暈眩持續時間",
+          "affix": "SUFFIX",
+          "pattern": "%暈眩持"
+        },
+        {
+          "id": "explicit.stat_239367161",
+          "text": "增加#%暈眩累積",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1940865751",
+          "text": "附加#至#物理傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_387439868",
+          "text": "增加#%攻擊元素傷害",
+          "affix": "PREFIX",
+          "pattern": "%攻擊元"
+        }
+      ]
+    },
+    {
+      "name": "聖物",
+      "bases": [
+        "古甕聖物",
+        "陶罐聖物",
+        "器皿聖物",
+        "草紙聖物",
+        "寶箱聖物",
+        "聖經聖物",
+        "香爐聖物"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_983749596",
+          "text": "增加#%最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "sanctum.stat_3970123360",
+          "text": "增加#%最大榮譽",
+          "affix": "PREFIX",
+          "pattern": "%最大榮譽"
+        },
+        {
+          "id": "sanctum.stat_1583320325",
+          "text": "增加#%恢復的榮譽",
+          "affix": "PREFIX",
+          "pattern": "%恢復的"
+        },
+        {
+          "id": "sanctum.stat_2393318075",
+          "text": "在試煉開始時獲得#個聖水",
+          "affix": "PREFIX",
+          "pattern": "在試煉開"
+        },
+        {
+          "id": "sanctum.stat_3114474137",
+          "text": "怪物增加#%傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "sanctum.stat_408585189",
+          "text": "增加#%稀有怪物承受傷害",
+          "affix": "PREFIX",
+          "pattern": "%稀有怪"
+        },
+        {
+          "id": "sanctum.stat_3226329527",
+          "text": "頭目增加承受#%傷害",
+          "affix": "PREFIX",
+          "pattern": "頭目增加"
+        },
+        {
+          "id": "sanctum.stat_290775436",
+          "text": "商人有1個額外選擇",
+          "affix": "PREFIX",
+          "pattern": "商人有1"
+        },
+        {
+          "id": "sanctum.stat_1016362888",
+          "text": "增加#%護甲、閃避、和能量護盾",
+          "affix": "PREFIX",
+          "pattern": "%護甲、閃避、"
+        },
+        {
+          "id": "sanctum.stat_3554921410",
+          "text": "減少#%陷阱造成的傷害",
+          "officialText": "增加#%陷阱造成的傷害",
+          "sample": "減少7%陷阱造成的傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2250533757",
+          "text": "增加#%移動速度",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "sanctum.stat_3170238729",
+          "text": "當你獲得一把鑰匙時，有#%機率獲得另一把",
+          "affix": "PREFIX",
+          "pattern": "獲得一把"
+        },
+        {
+          "id": "sanctum.stat_3870327403",
+          "text": "有#%機率讓你在失去所有榮譽時，改為保有1榮譽",
+          "affix": "PREFIX",
+          "pattern": "%機率讓"
+        },
+        {
+          "id": "sanctum.stat_2155917449",
+          "text": "完成一個樓層時，有#%機率使你的每一把鑰匙升級",
+          "affix": "PREFIX",
+          "pattern": "成一個樓"
+        },
+        {
+          "id": "sanctum.stat_231205265",
+          "text": "怪物有#%機率掉落兩倍聖水",
+          "affix": "SUFFIX",
+          "pattern": "率掉落兩"
+        },
+        {
+          "id": "sanctum.stat_2363402715",
+          "text": "噴泉有#%機率賦予兩倍聖水",
+          "affix": "SUFFIX",
+          "pattern": "%機率賦"
+        },
+        {
+          "id": "sanctum.stat_3096446459",
+          "text": "減少#%販售價格",
+          "officialText": "增加#%販售價格",
+          "sample": "減少7%販售價格",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "sanctum.stat_3865020351",
+          "text": "擊殺頭目時，恢復#榮譽",
+          "affix": "SUFFIX",
+          "pattern": "擊殺頭目"
+        },
+        {
+          "id": "sanctum.stat_2492340460",
+          "text": "膜拜一座馬拉克斯神殿時，恢復#榮譽",
+          "affix": "SUFFIX",
+          "pattern": "膜拜一座"
+        },
+        {
+          "id": "sanctum.stat_4057192895",
+          "text": "完成一個房間時，獲得#個聖水",
+          "affix": "SUFFIX",
+          "pattern": "成一個房"
+        },
+        {
+          "id": "sanctum.stat_2114314842",
+          "text": "完成房間時，恢復#榮譽",
+          "affix": "SUFFIX",
+          "pattern": "完成房間"
+        },
+        {
+          "id": "sanctum.stat_386901949",
+          "text": "試煉地圖額外揭露1個房間",
+          "affix": "SUFFIX",
+          "pattern": "煉地圖額"
+        },
+        {
+          "id": "sanctum.stat_1960517795",
+          "text": "有#%機率避免獲得苦痛",
+          "affix": "SUFFIX",
+          "pattern": "率避免獲"
+        },
+        {
+          "id": "sanctum.stat_1680962389",
+          "text": "增加#%怪物掉落聖物的數量",
+          "affix": "SUFFIX",
+          "pattern": "物掉落聖"
+        },
+        {
+          "id": "explicit.stat_258119672",
+          "text": "閃避翻滾距離#公尺",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "sanctum.stat_978111083",
+          "text": "減少#%你身上的減益效果緩速程度",
+          "officialText": "增加#%你身上的減益效果緩速程度",
+          "sample": "減少18%你身上的減益效果緩速程度",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3855016469",
+          "text": "對你的擊中減少#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "sanctum.stat_521869848",
+          "text": "拾起一把鑰匙時，恢復#榮譽",
+          "affix": "SUFFIX",
+          "pattern": "拾起一把"
+        },
+        {
+          "id": "sanctum.stat_2287831219",
+          "text": "#%至榮譽抗性",
+          "affix": "SUFFIX",
+          "pattern": "%至榮譽"
+        },
+        {
+          "id": "sanctum.stat_3096543632",
+          "text": "#%至最大榮譽抗性",
+          "affix": "SUFFIX",
+          "pattern": "至最大榮"
+        },
+        {
+          "id": "sanctum.stat_729354668",
+          "text": "增加#%怪物掉落的鑰匙數量",
+          "affix": "SUFFIX",
+          "pattern": "掉落的鑰"
+        }
+      ]
+    },
+    {
+      "name": "輕盾",
+      "bases": [
+        "皮革輕盾",
+        "木頭輕盾",
+        "鋼板輕盾",
+        "鍛鐵輕盾",
+        "脊狀輕盾",
+        "尖刺輕盾",
+        "環紋輕盾",
+        "刃緣輕盾",
+        "層壓輕盾",
+        "珍珠輕盾",
+        "華麗輕盾",
+        "排列輕盾",
+        "橡木輕盾",
+        "彩繪輕盾",
+        "盤繞輕盾",
+        "尖衛輕盾",
+        "響聲輕盾",
+        "刃衛輕盾",
+        "挑腸輕盾",
+        "遠古輕盾",
+        "沙漠輕盾"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3261801346",
+          "text": "#點敏捷",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3372524247",
+          "text": "#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4220027924",
+          "text": "#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1671376347",
+          "text": "#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2923486259",
+          "text": "#%混沌抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3855016469",
+          "text": "對你的擊中減少#%暴擊傷害加成",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3362812763",
+          "text": "#%的護甲值也會套用至元素傷害",
+          "affix": "SUFFIX",
+          "pattern": "會套用至元"
+        },
+        {
+          "id": "explicit.stat_3033371881",
+          "text": "獲得等同#%閃避值的偏斜值",
+          "affix": "SUFFIX",
+          "pattern": "避值的偏"
+        },
+        {
+          "id": "explicit.stat_2144192055",
+          "text": "#閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_809229260",
+          "text": "#護甲值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2106365538",
+          "text": "增加#%閃避值",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2451402625",
+          "text": "增加#%護甲值和閃避",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_915769802",
+          "text": "暈眩門檻#",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3299347043",
+          "text": "#最大生命",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1050105434",
+          "text": "#最大魔力",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    },
+    {
+      "name": "最後通牒雕刻",
+      "bases": [
+        "最後通牒雕刻"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_3376488707",
+          "text": "玩家#%最大抗性",
+          "affix": "SUFFIX",
+          "pattern": "%最大抗"
+        },
+        {
+          "id": "explicit.stat_92381065",
+          "text": "怪物造成等同於傷害#%的額外火焰傷害",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3588388638",
+          "text": "怪物傷害穿透#%火焰抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_211727",
+          "text": "怪物造成等同於傷害#%的額外冰冷傷害",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1138708335",
+          "text": "怪物傷害穿透#%冰冷抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_512071314",
+          "text": "怪物造成等同於傷害#%的額外閃電傷害",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3093465148",
+          "text": "怪物傷害穿透#%閃電抗性",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_4103440490",
+          "text": "玩家被衰弱詛咒",
+          "affix": "SUFFIX",
+          "pattern": "玩家被衰"
+        },
+        {
+          "id": "explicit.stat_2326202293",
+          "text": "玩家被時空鎖鏈詛咒",
+          "affix": "SUFFIX",
+          "pattern": "玩家被時"
+        },
+        {
+          "id": "explicit.stat_558910024",
+          "text": "玩家被元素要害詛咒",
+          "affix": "SUFFIX",
+          "pattern": "玩家被元"
+        },
+        {
+          "id": "explicit.stat_2200661314",
+          "text": "怪物造成等同於傷害#%的額外混沌傷害",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3909654181",
+          "text": "怪物增加#%攻擊、施放、移動速度",
+          "affix": "SUFFIX",
+          "pattern": "%攻擊、"
+        },
+        {
+          "id": "explicit.stat_95249895",
+          "text": "#%更多怪物生命",
+          "affix": "SUFFIX",
+          "pattern": "%更多怪"
+        },
+        {
+          "id": "explicit.stat_3906866585",
+          "text": "增加#%怪物的護甲、閃避、和能量護盾",
+          "affix": "SUFFIX",
+          "pattern": "怪物的護"
+        }
+      ]
+    },
+    {
+      "name": "碑牌",
+      "bases": [
+        "裂痕碑牌",
+        "探險碑牌",
+        "譫妄碑牌",
+        "祭祀碑牌",
+        "輻照碑牌",
+        "總督碑牌",
+        "深淵碑牌",
+        "神廟碑牌"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_2065500219",
+          "text": "增加#%怪物的效用",
+          "affix": "PREFIX",
+          "pattern": "%怪物的效"
+        },
+        {
+          "id": "explicit.stat_2306002879",
+          "text": "增加#%地圖內找到的物品稀有度",
+          "affix": "PREFIX",
+          "pattern": "內找到的物品稀"
+        },
+        {
+          "id": "explicit.stat_2017682521",
+          "text": "增加#%地圖內的怪物群大小",
+          "affix": "PREFIX",
+          "pattern": "圖內的怪"
+        },
+        {
+          "id": "explicit.stat_3873704640",
+          "text": "增加#%地圖含有的魔法怪物",
+          "affix": "PREFIX",
+          "pattern": "含有的魔"
+        },
+        {
+          "id": "explicit.stat_3793155082",
+          "text": "增加#%地圖含有的稀有怪物數量",
+          "affix": "PREFIX",
+          "pattern": "含有的稀"
+        },
+        {
+          "id": "explicit.stat_4142653832",
+          "text": "地圖增加#%怪物稀有度",
+          "affix": "PREFIX",
+          "pattern": "地圖增加"
+        },
+        {
+          "id": "explicit.stat_57434274",
+          "text": "增加#%地圖內所獲取的經驗量",
+          "affix": "PREFIX",
+          "pattern": "獲取的經"
+        },
+        {
+          "id": "explicit.stat_395808938",
+          "text": "地圖內含有額外的一個精髓",
+          "affix": "BOTH",
+          "pattern": "的一個精"
+        },
+        {
+          "id": "explicit.stat_2777224821",
+          "text": "增加#%地圖內找到的換界石數量",
+          "affix": "BOTH",
+          "pattern": "找到的換"
+        },
+        {
+          "id": "explicit.stat_358129101",
+          "text": "地圖內含有#個額外阿茲莫里魂靈",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3550168289",
+          "text": "地圖內含有#名額外盜賊流亡者",
+          "affix": "PREFIX",
+          "pattern": "名額外盜"
+        },
+        {
+          "id": "explicit.stat_2839545956",
+          "text": "地圖內含有額外的一個召喚法陣",
+          "affix": "PREFIX",
+          "pattern": "的一個召"
+        },
+        {
+          "id": "explicit.stat_689816330",
+          "text": "增加#%地圖內含有神殿的機率",
+          "affix": "SUFFIX",
+          "pattern": "內含有神"
+        },
+        {
+          "id": "explicit.stat_1468737867",
+          "text": "地圖內含有額外的一個神殿",
+          "affix": "SUFFIX",
+          "pattern": "的一個神"
+        },
+        {
+          "id": "explicit.stat_4279535856",
+          "text": "增加#%地圖內有含有保險箱的機率",
+          "affix": "SUFFIX",
+          "pattern": "有含有保"
+        },
+        {
+          "id": "explicit.stat_3040603554",
+          "text": "地圖內含有額外的一個保險箱",
+          "affix": "SUFFIX",
+          "pattern": "的一個保"
+        },
+        {
+          "id": "explicit.stat_1825943485",
+          "text": "增加#%地圖內含有精髓的機率",
+          "affix": "SUFFIX",
+          "pattern": "內含有精"
+        },
+        {
+          "id": "explicit.stat_3815617979",
+          "text": "增加#%地圖內有含有阿茲莫里魂靈的機率",
+          "affix": "SUFFIX",
+          "pattern": "有含有阿"
+        },
+        {
+          "id": "explicit.stat_1352729973",
+          "text": "增加#%地圖內含有盜賊流亡者的機率",
+          "affix": "SUFFIX",
+          "pattern": "內含有盜"
+        },
+        {
+          "id": "explicit.stat_267210597",
+          "text": "增加#%地圖內有含有召喚法陣的機率",
+          "affix": "SUFFIX",
+          "pattern": "有含有召"
+        },
+        {
+          "id": "explicit.stat_588512487",
+          "text": "地圖有#個額外變動詞綴",
+          "affix": "SUFFIX",
+          "pattern": "個額外變"
+        },
+        {
+          "id": "explicit.stat_3371085671",
+          "text": "傳奇怪物會擁有#個額外的詞綴",
+          "affix": "SUFFIX",
+          "pattern": "奇怪物會"
+        },
+        {
+          "id": "explicit.stat_2778285247",
+          "text": "增加#%地圖內找到的巢裔之血數量",
+          "affix": "SUFFIX",
+          "pattern": "找到的巢"
+        },
+        {
+          "id": "explicit.stat_472809816",
+          "text": "增加#%地圖內找到的胎贈數量",
+          "affix": "SUFFIX",
+          "pattern": "找到的胎"
+        },
+        {
+          "id": "explicit.stat_2889272422",
+          "text": "地圖內有#%機率掉落高一等級的胎贈",
+          "affix": "SUFFIX",
+          "pattern": "率掉落高"
+        },
+        {
+          "id": "explicit.stat_2433436306",
+          "text": "增加#%地圖內的不穩定裂痕含有烈許的統領．弗倫的機率",
+          "affix": "SUFFIX",
+          "pattern": "定裂痕含"
+        },
+        {
+          "id": "explicit.stat_3762913035",
+          "text": "地圖內的不穩定裂痕會在穩定後生成一名額外稀有怪物]",
+          "affix": "SUFFIX",
+          "pattern": "痕會在穩"
+        },
+        {
+          "id": "explicit.stat_2895378479",
+          "text": "增加#%地圖內稀有裂痕怪物的效用",
+          "affix": "SUFFIX",
+          "pattern": "地圖內稀"
+        },
+        {
+          "id": "explicit.stat_1210760818",
+          "text": "增加#%地圖內裂痕的怪物群大小",
+          "affix": "SUFFIX",
+          "pattern": "內裂痕的"
+        },
+        {
+          "id": "explicit.stat_1083387327",
+          "text": "增加#%地圖內的探險事件所生成的符文怪物掉落的探險日誌數量",
+          "affix": "SUFFIX",
+          "pattern": "險事件所"
+        },
+        {
+          "id": "explicit.stat_1640965354",
+          "text": "增加#%地圖內含有的符文怪物印記的數量",
+          "affix": "SUFFIX",
+          "pattern": "含有的符"
+        },
+        {
+          "id": "explicit.stat_3520418269",
+          "text": "增加#%維里西姆遺物怪物掉落的維里西姆",
+          "affix": "SUFFIX",
+          "pattern": "%維里西"
+        },
+        {
+          "id": "explicit.stat_3836551197",
+          "text": "增加#%地圖內掉落的幻像斷片數量",
+          "affix": "SUFFIX",
+          "pattern": "地圖內掉"
+        },
+        {
+          "id": "explicit.stat_3226351972",
+          "text": "地圖內含有的譫妄迷霧會在消散前額外持續#秒",
+          "affix": "SUFFIX",
+          "pattern": "含有的譫"
+        },
+        {
+          "id": "explicit.stat_1769611692",
+          "text": "地圖中的譫妄會增加#%玩家的譫妄程度",
+          "affix": "SUFFIX",
+          "pattern": "中的譫妄會"
+        },
+        {
+          "id": "explicit.stat_3465791711",
+          "text": "增加#%地圖內的譫妄怪物怪物群大小",
+          "affix": "SUFFIX",
+          "pattern": "妄怪物怪"
+        },
+        {
+          "id": "explicit.stat_551040294",
+          "text": "增加#%地圖內的譫妄生成破碎之鏡",
+          "affix": "SUFFIX",
+          "pattern": "的譫妄生"
+        },
+        {
+          "id": "explicit.stat_3962960008",
+          "text": "地圖內的譫妄有#%更多機率生成傳奇頭目",
+          "affix": "SUFFIX",
+          "pattern": "%更多機"
+        },
+        {
+          "id": "explicit.stat_900933517",
+          "text": "地圖中的譫妄迷霧增加#%裂鏡碎片的生成量",
+          "affix": "SUFFIX",
+          "pattern": "妄迷霧增"
+        },
+        {
+          "id": "explicit.stat_159726667",
+          "text": "增加#%在地圖內的祭祀神壇所獻祭的怪物提供的貢禮數量",
+          "affix": "SUFFIX",
+          "pattern": "%在地圖"
+        },
+        {
+          "id": "explicit.stat_28208665",
+          "text": "地圖內的祭祀神壇所延遲的恩惠之物出現速度加快#%",
+          "affix": "SUFFIX",
+          "pattern": "神壇所延"
+        },
+        {
+          "id": "explicit.stat_120737942",
+          "text": "地圖內的祭祀神壇可以額外重骰一次",
+          "affix": "SUFFIX",
+          "pattern": "壇可以額"
+        },
+        {
+          "id": "explicit.stat_937291386",
+          "text": "地圖內的祭祀神壇有#%機率不消耗貢禮",
+          "affix": "SUFFIX",
+          "pattern": "祀神壇有"
+        },
+        {
+          "id": "explicit.stat_1031644647",
+          "text": "地圖內的祭祀神壇所復活的怪物增加#%為魔法怪物的機率",
+          "affix": "SUFFIX",
+          "pattern": "%為魔法"
+        },
+        {
+          "id": "explicit.stat_3979184174",
+          "text": "地圖內的祭祀神壇所復活的怪物增加#%為稀有怪物的機率",
+          "affix": "SUFFIX",
+          "pattern": "%為稀有"
+        },
+        {
+          "id": "explicit.stat_4219853180",
+          "text": "增加#%地圖內的祭祀神壇獎勵為預兆的機率",
+          "affix": "SUFFIX",
+          "pattern": "祀神壇獎"
+        },
+        {
+          "id": "explicit.stat_775597083",
+          "text": "地圖內含有額外的一個阿茲莫里魂靈",
+          "affix": "SUFFIX",
+          "pattern": "的一個阿"
+        },
+        {
+          "id": "explicit.stat_1457896329",
+          "text": "增加#%地圖頭目掉落的換界石數量",
+          "affix": "SUFFIX",
+          "pattern": "目掉落的"
+        },
+        {
+          "id": "explicit.stat_3860150265",
+          "text": "增加#%地圖頭目賦予的經驗",
+          "affix": "SUFFIX",
+          "pattern": "圖頭目賦"
+        },
+        {
+          "id": "explicit.stat_4255069232",
+          "text": "增加#%地圖頭目掉落物品的稀有度",
+          "affix": "SUFFIX",
+          "pattern": "落物品的"
+        },
+        {
+          "id": "explicit.stat_3119172063",
+          "text": "增加#%地圖頭目的掉落物品數量",
+          "affix": "SUFFIX",
+          "pattern": "頭目的掉"
+        },
+        {
+          "id": "explicit.stat_944630113",
+          "text": "增加#%地圖內的深淵生成的怪物數量",
+          "affix": "SUFFIX",
+          "pattern": "%地圖內的深"
+        },
+        {
+          "id": "explicit.stat_243380454",
+          "text": "地圖內的深淵生成#隻額外稀有怪物",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_664606484",
+          "text": "每有一個已關閉的坑洞，增加#%深淵怪物效用，最多100%",
+          "affix": "SUFFIX",
+          "pattern": "有一個已"
+        },
+        {
+          "id": "explicit.stat_2722831300",
+          "text": "地圖內的深淵增加有#%機率前往無盡深淵",
+          "affix": "SUFFIX",
+          "pattern": "內的深淵增"
+        },
+        {
+          "id": "explicit.stat_1070816711",
+          "text": "地圖內含有額外一道深淵",
+          "affix": "SUFFIX",
+          "pattern": "內含有額外一"
+        },
+        {
+          "id": "explicit.stat_4256531808",
+          "text": "地圖內的深淵坑洞有兩倍機率含有獎勵",
+          "affix": "SUFFIX",
+          "pattern": "內的深淵坑"
+        },
+        {
+          "id": "explicit.stat_2890355696",
+          "text": "地圖有#%機率包含4道額外深淵",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_2789248444",
+          "text": "地圖內的深淵怪物增加#%擁有深淵詞綴的機率",
+          "affix": "SUFFIX",
+          "pattern": "淵怪物增"
+        },
+        {
+          "id": "explicit.stat_1710200734",
+          "text": "增加#%來自地圖內深淵的褻瀆通貨掉落機率",
+          "affix": "SUFFIX",
+          "pattern": "%來自地"
+        },
+        {
+          "id": "explicit.stat_890040946",
+          "text": "增加#%地圖內瓦爾烽塔周遭的怪物群大小",
+          "affix": "SUFFIX",
+          "pattern": "塔周遭的"
+        },
+        {
+          "id": "explicit.stat_3294218801",
+          "text": "地圖內的瓦爾烽塔周遭擁有額外#群怪物",
+          "affix": "SUFFIX",
+          "pattern": "塔周遭擁"
+        },
+        {
+          "id": "explicit.stat_1359775981",
+          "text": "有#%機率擁有一群額外怪物在地圖內的瓦爾烽塔周遭",
+          "affix": "SUFFIX",
+          "pattern": "%機率擁"
+        },
+        {
+          "id": "explicit.stat_632698321",
+          "text": "增加#%地圖內的瓦爾烽塔召喚額外怪物的機率",
+          "affix": "SUFFIX",
+          "pattern": "爾烽塔召"
+        },
+        {
+          "id": "explicit.stat_1940774881",
+          "text": "有#%機率從地圖內的瓦爾烽塔獲得額外一個額外水晶",
+          "affix": "SUFFIX",
+          "pattern": "率從地圖"
+        },
+        {
+          "id": "explicit.stat_3937291366",
+          "text": "有#%機率為地圖新增一名瓦爾烽塔傳奇怪物",
+          "affix": "SUFFIX",
+          "pattern": "機率為地"
+        },
+        {
+          "id": "explicit.stat_2514439422",
+          "text": "增加#%地圖內瓦爾烽塔的寶箱為稀有的機率",
+          "affix": "SUFFIX",
+          "pattern": "爾烽塔的"
+        }
+      ]
+    },
+    {
+      "name": "魔符",
+      "bases": [
+        "變形魔符",
+        "蕁麻魔符",
+        "灰樹皮魔符",
+        "家族魔符",
+        "狂亂魔符",
+        "原始魔符",
+        "狂暴魔符",
+        "惡毒魔符",
+        "伏特之牙魔符",
+        "笨重魔符",
+        "狂嚎魔符",
+        "怒火魔符",
+        "殘酷魔符",
+        "尖錐魔符",
+        "燼木魔符",
+        "銳爪魔符",
+        "真菌魔符",
+        "統領魔符",
+        "聖賢魔符",
+        "荒林魔符",
+        "天雷魔符",
+        "翠玉魔符"
+      ],
+      "mods": [
+        {
+          "id": "explicit.stat_4080418644",
+          "text": "#點力量",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_328541901",
+          "text": "#點智慧",
+          "affix": "SUFFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_709508406",
+          "text": "附加#至#火焰傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_1037193709",
+          "text": "附加#至#冰冷傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        },
+        {
+          "id": "explicit.stat_3336890334",
+          "text": "附加#至#閃電傷害",
+          "affix": "PREFIX",
+          "pattern": null
+        }
+      ]
+    }
+  ]
+}
